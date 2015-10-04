@@ -25,11 +25,9 @@
 
 <h2>Dr. Jenny Foster</h2>
 	<ul>
-	<li>Add some basic information about your company here.</li>
-	<li>Services, Grand Opening date, etc.</li>
-	<li>Use this area for whatever information you want to display while your site is being built.</li>
-	<li>You don't have to use bullet points.</li>
-	<li>They do convey information quickly and concisely though.</li>
+	<li>We are excited to announce the opening of Foster Family Dental (formally Zanichelli Dental Hygiene).  Dr. Foster is excited to provide comprehensive dental care for the residents of Evergreen and the surrounding areas.</li>
+	<li>Please join Dr, Foster, Chelsea, and Ellen at our open house Wednesday, October 21st from 5-8pm at our office in historic downtown Evergreen.</li>
+	<li>We are accepting new patients and accept most dental insurances.</li>
 	</ul>
 
 </section>
