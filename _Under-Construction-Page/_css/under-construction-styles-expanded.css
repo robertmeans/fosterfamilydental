@@ -71,16 +71,18 @@ body {
   font-size: 16px;
   color: #757575;
   font-family: Calibri, Tahoma, Arial;
+  background-color: #fff;
 }
 
 h1, h2, h3, h4, h5 {
   display: block;
+  font-family: 'Lora', Times New Roman;
 }
 
 p {
   display: block;
-  line-height: 1em;
-  font-size: 1em;
+  line-height: 1.2em;
+  font-size: 1.2em;
   margin: 1em 0;
 }
 
@@ -94,7 +96,7 @@ p {
 
 #wrapper img {
   width: 100%;
-  max-width: 180px;
+  max-width: 175px;
 }
 
 #bg-div-one {
@@ -106,17 +108,18 @@ header {
 }
 
 header h1 {
-  font-size: 4em;
+  font-family: Tangerine;
+  font-size: 5em;
   font-weight: bold;
-  color: #005692;
+  color: #9878bb;
   padding: 100px 0px 5px 0px;
-  border-bottom: 2px solid #757575;
+  border-bottom: 2px solid #e7c142;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: bold;
-  color: #C54A14;
+  color: #4f346c;
 }
 
 #wrapper img {
@@ -138,6 +141,7 @@ h2 {
   margin-top: 2em;
 }
 #left-side ul li {
+  font-size: 1.1em;
   list-style-type: disc;
   display: list-item;
   margin: 0 1.5em;
@@ -164,6 +168,7 @@ h2 {
 }
 #right-side input:focus {
   background: #fbfbfb;
+  outline-color: #e7c142;
 }
 
 textarea {
@@ -173,6 +178,7 @@ textarea {
 }
 textarea:focus {
   background: #fbfbfb;
+  outline-color: #e7c142;
 }
 
 input#send, input#clear {
@@ -181,16 +187,16 @@ input#send, input#clear {
   max-width: 100px;
   padding: 5px;
   margin: 10px;
-  border-radius: 8px;
   -moz-border-radius: 8px;
   -o-border-radius: 8px;
   border: 1px solid #233851;
-  background: #ccc;
-  color: #000;
+  background: #4f346c;
+  color: #fff;
 }
 input#send:hover, input#clear:hover {
-  background: #565656;
-  color: #fff;
+  background: #7dd1e9;
+  color: #000;
+  cursor: pointer;
 }
 input#send:active, input#send:focus, input#clear:active, input#clear:focus {
   outline: 0;
@@ -208,12 +214,15 @@ footer {
   position: relative;
   float: left;
   width: 100%;
-  border-top: 15px solid #767676;
+  border-top: 15px solid #e7c142;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 60px;
-  background: #eeeeee;
-  color: #1570a6;
+  background: #9878bb;
+  color: #fff;
+  font-size: .8em;
 }
 footer #left {
   float: left;
@@ -244,11 +253,11 @@ footer .tel:hover, footer .tel:active {
   text-decoration: none;
 }
 footer .fa-map-marker {
-  color: #7f0000;
+  color: #fff;
   padding-right: 5px;
 }
 footer .fa-phone-square {
-  color: #3b3b3b;
+  color: #fff;
   padding-right: 5px;
 }
 footer .copyright {
@@ -256,7 +265,7 @@ footer .copyright {
   position: absolute;
   bottom: 5px;
   right: 30px;
-  color: #7a7a7a;
+  color: #fff;
 }
 footer a {
   color: inherit;
@@ -280,11 +289,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1000px) {
-  header h1 {
-    font-size: 3em;
-  }
-}
 @media screen and (max-width: 799px) {
   #bg-div-one {
     display: block;
@@ -310,7 +314,6 @@ footer a:hover {
   }
 
   header h1 {
-    font-size: 3.5em;
     padding: 30px 0px 5px 0px;
   }
 
@@ -402,14 +405,13 @@ footer a:hover {
   }
 
   header h1 {
-    font-size: 2.6em;
+    font-size: 3em;
     padding: 15px;
   }
 
   h2 {
     font-size: 1.5em;
     font-weight: bold;
-    color: #C54A14;
     padding: 0px 10px;
   }
 
@@ -466,6 +468,10 @@ footer a:hover {
 
   input#send {
     margin-left: 0;
+  }
+
+  footer {
+    border-radius: 0;
   }
 }
 @media screen and (max-width: 350px) {

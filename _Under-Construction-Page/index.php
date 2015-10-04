@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="_scripts/custom-modernizr.js?<?php echo time(); ?>"></script>
 	<link rel="stylesheet" href="_css/under-construction-styles.css?<?php echo time(); ?>">	
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Lora|Tangerine' rel='stylesheet' type='text/css'>
 
 </head>
 <body onload="document.forms[0].name.focus();">
@@ -18,11 +19,11 @@
 <div id="wrapper">
 <header>
 	<h1>Foster Family Dental</h1>
-	<img src="_images/under-construction.png" alt="Under Construction">
+	<img src="_images/under-construction-ffd.png" alt="Under Construction">
 </header>
 <section id="left-side">
 
-<h2>Tag line attention grabber slogan jingle</h2>
+<h2>Dr. Jenny Foster</h2>
 	<ul>
 	<li>Add some basic information about your company here.</li>
 	<li>Services, Grand Opening date, etc.</li>
@@ -50,7 +51,7 @@
           <textarea name="comments" id="comments" tabindex="30"></textarea>
         </li>
         <li>
-            <input id="send" type="submit" value="Send" tabindex="40" /><input id="clear" type="button" value="Clear" onClick="rUSure()" tabindex="50" />
+            <input id="send" type="submit" value="Send" tabindex="40" /><!-- <input id="clear" type="button" value="Clear" onClick="rUSure()" tabindex="50" /> -->
         </li>
         
     </ul> 

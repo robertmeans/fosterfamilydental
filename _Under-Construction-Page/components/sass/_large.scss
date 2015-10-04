@@ -5,16 +5,17 @@ header {
 	width: 100%;
 }
 header h1 {
-	font-size: 4em;
+	font-family: Tangerine;
+	font-size: 5em;
 	font-weight: bold;
-	color: #005692;
+	color: #9878bb;
 	padding: 100px 0px 5px 0px;
-	border-bottom: 2px solid #757575;
+	border-bottom: 2px solid #e7c142;
 }
 h2 {
 	font-size: 1.5em;
 	font-weight: bold;
-	color: #C54A14;
+	color: #4f346c;
 }
 #wrapper img {
 	position: absolute;
@@ -32,6 +33,7 @@ h2 {
 	ul {
 		margin-top: 2em;
 		li {
+		font-size: 1.1em;
 		list-style-type: disc;
 		display: list-item;
 		margin: 0 1.5em;
@@ -57,6 +59,7 @@ h2 {
 		margin-bottom: 15px;
 		&:focus {
 			background: #fbfbfb;
+			outline-color: #e7c142; 
 		}
 	}
 }
@@ -66,6 +69,7 @@ textarea {
 	height: 80px;
 	&:focus {
 		background: #fbfbfb;
+		outline-color: #e7c142;
 	}
 }
 input#send, input#clear {
@@ -74,15 +78,16 @@ input#send, input#clear {
 	max-width: 100px;
 	padding: 5px;
 	margin: 10px;
-	border-radius: 8px;
+	// border-radius: 8px;
 	-moz-border-radius: 8px;
 	-o-border-radius: 8px;
 	border: 1px solid #233851;
-	background: #ccc;
-	color: #000;
+	background: #4f346c;
+	color: #fff;
 	&:hover {
-		background: #565656;
-		color: #fff;
+		background: #7dd1e9;
+		color: #000;
+		cursor: pointer;
 	}
 	&:active, &:focus {
 		outline: 0;
@@ -96,15 +101,21 @@ input#send {
 	margin-left: 0;
 }
 footer {
-	position: relative;
-	float: left;
-	width: 100%;
-	border-top: 15px solid #767676;
-	margin-top: 30px;
-	padding-top: 20px;
-	padding-bottom: 60px;
-	background: #eeeeee;
-	color: #1570a6;
+		position: relative;
+		float: left;
+		width: 100%;
+		border-top: 15px solid #e7c142;
+		// border-right: 2px solid #4f346c;
+		// border-bottom: 2px solid #4f346c;
+		// border-left: 2px solid #4f346c;
+		border-bottom-right-radius: 8px;
+		border-bottom-left-radius: 8px;
+		margin-top: 30px;
+		padding-top: 20px;
+		padding-bottom: 60px;
+		background: #9878bb;
+		color: #fff;
+		font-size: .8em;
 	#left {
 		float: left;
 		text-align: right;
@@ -134,11 +145,11 @@ footer {
 		}
 	}
 	.fa-map-marker {
-		color: #7f0000;
+		color: #fff;
 		padding-right: 5px;
 	}
 	.fa-phone-square {
-		color: #3b3b3b;
+		color: #fff;
 		padding-right: 5px;
 	}
 	.copyright {
@@ -146,7 +157,7 @@ footer {
 		position: absolute;
 		bottom: 5px;
 		right: 30px;
-		color: #7a7a7a;
+		color: #fff;
 	}
 	a {
 		color: inherit;

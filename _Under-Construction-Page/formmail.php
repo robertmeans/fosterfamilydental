@@ -6,7 +6,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 local instructions in: Tools/PHP FormMail
 */
 
-$my_email = "robert@robertmeans.com";
+$my_email = "pjennyfoster@gmail.com";
 // $my_email = "robert@robertmeans.com";
 /* let visitor fill in the "from" field - leave string below empty */
 $from_email = "";
@@ -62,7 +62,7 @@ $message = $message . PHP_EOL.PHP_EOL."".PHP_EOL."";
 
 $message = stripslashes($message);
 
-$subject = "Message from Rookies.com Website";
+$subject = "Message from FosterFamilyDental.com Website";
 
 $subject = stripslashes($subject);
 
@@ -99,7 +99,7 @@ mail($my_email,$subject,$message,$headers);
 	<!-- <link rel="icon" type="image/ico" href="_images/favicon.ico"> -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="_css/style.css?<?php echo time(); ?>">	
+	<link rel="stylesheet" href="_css/under-construction-styles.css?<?php echo time(); ?>">	
 
 </head>
 <body onload="document.forms[0].name.focus();">
@@ -111,20 +111,20 @@ mail($my_email,$subject,$message,$headers);
 
 <section id="success">
 	<h2>Your message was sent successfully!</h2>
-	<p><a href="http://www.rookiesevergreen.com">Back to homepage</a></p>
+	<p><a href="http://www.fosterfamilydental.com">Back to homepage</a></p>
 </section>
 
-<footer class="cf">
+<footer>
 	<div id="left">
-		<p>Foster Family Dental - Evergreen, Colorado</p>
+		<p>Foster Family Dental</p>
 	</div>
 	<div id="center">
 		<p><i class="fa fa-map-marker"></i> 27905 Meadow Drive #5<br>Evergreen, CO 80439</p>
 	</div>
 	<div id="right">
-		<!-- <p><i class="fa fa-phone-square"></i> <a class="tel" tabIndex="-1" href="tel:(303) 555-1234">720.319.8316</a></p> -->
+		<p><i class="fa fa-phone-square"></i> <a class="tel" tabIndex="-1" href="tel:(303) 674-1373">303.674.1373</a></p>
 	</div>
-
+	<div class="copyright"><p>&copy; 2015 Foster Family Dental | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p></div>
 </footer>
 </div><!-- #wrapper -->
 
