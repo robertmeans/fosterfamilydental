@@ -2,16 +2,15 @@
 <?php include 'header.php'; ?> 
 <style>      
 body {
-	background-color: #ffffff;
-	/* background-image: url(_images/xyz.jpg);
-	background-repeat: repeat-y; */
+	/*background-color: #ffffff;*/
+	 background: url(_images/circle-bkg.jpg) repeat fixed; 
 }
 </style>
 </head>
 <body>
 
 <div class="page">
-	<img src="_images/index_01.jpg" width="980" height="600" alt="index 01"></div>
+	<img src="_images/index_01.png" width="1208" height="1331" alt="index 01"></div>
 </div>        
  
  

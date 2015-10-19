@@ -6,9 +6,9 @@
 <META Http-Equiv="Pragma" Content="no-cache">
 <META Http-Equiv="Expires" Content="0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Your Website</title>
+<title>Foster Family Dental</title>
 
-<link rel="stylesheet" type="text/css" href="../_css/draft_styles.css" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
 
 <script>
 function go(loc) {
