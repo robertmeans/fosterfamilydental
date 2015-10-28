@@ -10,9 +10,18 @@
     <div class="draft_nav_option">
     	<label><input type="radio" name="loc" onClick="go('index.php');" <?php if ($thisPage=="index01") echo "checked"; else { echo ""; }?>><br>01</label>
     </div>
-<!--    
+    
     <div class="draft_nav_option">
     	<label><input type="radio" name="loc" onClick="go('index02.php');" <?php if ($thisPage=="index02") echo "checked"; else { echo ""; }?>><br>02</label>
+    </div>
+
+    <div class="draft_nav_option">
+        <label><input type="radio" name="loc" onClick="go('index03.php');" <?php if ($thisPage=="index03") echo "checked"; else { echo ""; }?>><br>03</label>
+    </div>    
+ 
+<!--    
+    <div class="draft_nav_option">
+        <label><input type="radio" name="loc" onClick="go('index02.php');" <?php if ($thisPage=="index02") echo "checked"; else { echo ""; }?>><br>02</label>
     </div>
 -->    
 <!--        

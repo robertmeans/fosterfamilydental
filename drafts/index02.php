@@ -10,8 +10,8 @@ body {
 </head>
 <body>
 
-<div class="page">
-	<img src="_images/index_01.jpg" width="980" height="600" alt="index 01">
+<div class="page2">
+	<img src="_images/index_02.png" width="1362" height="1174" alt="index 02">
 </div>       
  
  

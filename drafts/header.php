@@ -7,6 +7,7 @@
 <META Http-Equiv="Expires" Content="0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Foster Family Dental</title>
+<link rel="icon" type="image/ico" href="_images/favicon.ico">
 
 <link rel="stylesheet" type="text/css" href="styles.css" />
 
