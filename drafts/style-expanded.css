@@ -391,9 +391,9 @@ body#index04-body {
 }
 
 .section-2 {
-  height: 800px;
   border-top: 20px solid #1d3630;
-  background: linear-gradient(#efe2ff, #d0a7ff);
+  background: linear-gradient(#efe2ff, #d0a7ff) fixed;
+  padding-bottom: 130px;
 }
 
 .section-2-container {
@@ -403,20 +403,142 @@ body#index04-body {
   padding: 0px 10px;
   box-sizing: border-box;
 }
+.section-2-container h1 {
+  text-align: center;
+  margin-top: 120px;
+  color: #1d3630;
+  font-size: 3em;
+  font-family: Georgia, serif;
+}
 .section-2-container .short-txt {
   width: 33.33333333%;
   float: left;
   padding: 0px 10px;
   box-sizing: border-box;
-  margin-top: 120px;
+  margin-top: 100px;
   line-height: 1.5em;
+}
+.section-2-container .short-txt h2 {
+  font-family: Georgia, serif;
+  color: #e26100;
+}
+.section-2-container img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  border: 1px solid #313131;
+  margin: 0px auto 30px auto;
+  display: block;
+  box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.our-staff {
+  box-sizing: border-box;
+  border-top: 20px solid #3c0449;
+  line-height: 2em;
+  background: linear-gradient(#f1deab, #e7b738) fixed;
+  padding-bottom: 120px;
+}
+.our-staff .staff-wrap {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.our-staff h1 {
+  text-align: center;
+  margin: 120px 0px 100px 0px;
+  color: #3c0449;
+  font-size: 3em;
+  font-family: Georgia, serif;
+}
+.our-staff img {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  max-width: 250px;
+  margin: 0px 15px 15px 0px;
+  border: 1px solid #858585;
+}
+.our-staff .staff01 {
+  box-sizing: border-box;
+  width: 47.5%;
+  max-width: 630px;
+  float: right;
+  margin-left: 2.5%;
+}
+.our-staff .staff02 {
+  box-sizing: border-box;
+  width: 47.5%;
+  max-width: 630px;
+  float: left;
+  margin-right: 2.5%;
+}
+
+.contact-section {
+  border-top: 20px solid #fff;
+  background: linear-gradient(#1a836a, #1d3630) fixed;
+  padding-bottom: 100px;
+}
+.contact-section h1 {
+  text-align: center;
+  margin-top: 120px;
+  color: #e7b738;
+  font-size: 3em;
+  font-family: Georgia, serif;
+}
+
+.contact-form {
+  text-align: left;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 100px auto 0px auto;
+  box-sizing: border-box;
+  color: #fff;
+}
+.contact-form form {
+  width: 100%;
+  max-width: 800px;
+}
+.contact-form label {
+  display: block;
+  line-height: 1em;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 1px 0px 5px 0px;
+}
+.contact-form input#name, .contact-form input#email {
+  width: 200px;
+  margin-bottom: 10px;
+  height: 1.2em;
+}
+.contact-form textarea#comments {
+  width: 90%;
+  max-width: 800px;
+  height: 180px;
+  margin-bottom: 15px;
+}
+.contact-form input#send {
+  font-size: 1.6em;
+  padding: 10px 25px;
+  background: #858585;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+  color: #fff;
+  max-width: 70px;
+  text-align: center;
+}
+.contact-form input#send:hover {
+  background: #565656;
+  cursor: pointer;
 }
 
 footer {
-  height: 300px;
   border-top: 5px solid #e7b738;
   background: #e8e8e8;
   color: #1d3630;
+  padding-bottom: 80px;
 }
 
 footer .section-2-container .short-txt {
@@ -425,10 +547,36 @@ footer .section-2-container .short-txt {
 footer .section-2-container .short-txt h2 {
   padding-bottom: 8px;
   border-bottom: 2px solid #313131;
+  font-family: Georgia, serif;
 }
 footer .section-2-container .short-txt img {
   max-width: 325px;
   border: 2px solid #fff;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+footer .section-2-container .short-txt img.ada {
+  width: 100%;
+  max-width: 150px;
+  border: none;
+  vertical-align: middle;
+}
+footer .section-2-container .short-txt img.imgpad {
+  margin-right: 30px;
+}
+footer .section-2-container .short-txt a.feetster {
+  color: #0000ff;
+  text-decoration: none;
+}
+footer .section-2-container .short-txt a.feetster:hover {
+  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
 }
 
 .back-to-top {

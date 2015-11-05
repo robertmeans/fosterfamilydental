@@ -34,11 +34,3 @@
 </div> 
 </form>       
 </div><!-- #draft_navigation -->
-
-
-
-
-
-
-
-

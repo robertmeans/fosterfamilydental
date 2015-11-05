@@ -21,42 +21,106 @@
 
 	<p class="title">Foster Family Dental</p>
 	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Our Practice</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Services</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a class="no-default" href="#">Home</a></li>
+		<li><a class="no-default" href="#">Our Practice</a></li>
+		<li><a class="no-default" href="#">Our Staff</a></li>
+		<li><a class="no-default" href="#">Services</a></li>
+		<li><a class="no-default" href="#">Contact</a></li>
 	</ul>
 </div>      
-<div class="section-2">
+<div class="section-2 cf">
 	<div class="section-2-container">
+		<h1>Our Practice</h1>
 		<div class="short-txt">
-			<h2>Welcome to Foster Family Dental</h2>
-			<p>When you visit our dental office, your smile is our top priority.  Our team is dedicated to providing you with the personalized, gentle care you deserve.  Part of our commitment to serving our patients includes providing information that helps them to make more informed decisions about their oral health needs.</p>
-			<p>We want you to be confident knowing that we are a team of highly trained and skilled clinicians. We pride ourselves in providing the care you need to keep your smile healthy. To give you the best possible service and results, we are committed to continual education and learning. We attend dental lectures, meetings, and dental conventions to stay informed of new techniques, the latest products, and the newest equipment that a modern dental office can utilize to provide state-of-the-art dental care. Also, being members of various professional dental associations helps us to stay abreast of the changes and recommendations for our profession.</p>
+			<img src="_images/ffd-our-practice.jpg">
+			<h2>About Our Dental Practice</h2>
+			<p>We are a dental practice devoted to restoring and enhancing the natural beauty of your smile using conservative, state-of-the-art procedures that will result in beautiful, long lasting smiles! We thank you for allowing us to take care of your dental needs and look forward to serving you.  Schedule an appointment today…..we’ll give you a reason to smile!</p>
 		</div>
 		<div class="short-txt">
-			<h2>We Hope Our Website is Useful</h2>
-			<p>Whether you’re here to learn more about our practice, dental conditions and treatments or dental recommendations, if you can’t find it here please contact us with any questions.</p>
-
-			<p>Our website is a living extension of our endless enthusiasm for everything dental. Help us keep it alive!</p>
+			<img src="_images/education.jpg">
+			<h2>Education &amp; Prevention</h2>
+			<p>As a practice, we are true believers that preventative care and education are the keys to optimal dental health.  We strive to provide “dental health care” vs. “disease care”.  That’s why we focus on thorough exams – checking the overall health of your teeth and gums, performing oral cancer exams, and taking x-rays when necessary.  We also know that routine cleanings, flossing, sealants, and fluoride are all helpful in preventing dental disease.  Not only are we focused on the beauty of your smile, we’re also concerned about your health.  A review of your medical history can help us stay informed of your overall health, any new medications, and any illnesses that may impact your dental health.</p>
 		</div>
 		<div class="short-txt">
-			<h2>Building a Foundation of Trust</h2>
-			<p>Treating our patients as special individuals is vital to our success. We understand how uneasy some patients can feel about their dental visits, and we know that we can make a difference by providing a relaxing and positive experience. Our entire team is dedicated to providing you with excellent, personalized care and service to make your visits as comfortable and pleasant as possible.</p>
+			<img src="_images/high-standards.jpg">
+			<h2>Our High Standards</h2>
+			<p>A standard of excellence in personalized dental care enables us to provide the quality dental services our patients deserve.  We provide comprehensive treatment planning and use restorative and cosmetic dentistry to achieve your optimal dental health.  Should a dental emergency occur, we make every effort to see and care for you the same day.</p>
 		</div>
 	</div>
 
 </div>
-<footer>
+
+
+<div class="our-staff cf">
+	<div class="staff-wrap">
+		<h1>Our Staff</h1>
+		<div class="staff01">
+			<img src="_images/staff-02.jpg">
+			<h3>Sandy Johnson</h3>
+			<p>Sandy started her vitae imperdiet augue rutrum a. Morbi accumsan vestibulum fermentum. Sed hendrerit diam vestibulum erat luctus, ac condimentum justo mollis. Nunc mollis nulla ipsum, sed consequat metus ultrices quis. Nunc non odio interdum, auctor dui a, venenatis nibh. Morbi auctor lorem id feugiat gravida.</p>
+			<p>Aenean mollis eleifend magna, id mollis justo venenatis vel. In in lacus in risus faucibus finibus. Mauris at eros ac arcu congue maximus. Etiam eu velit nibh. Ut ultricies tempor mauris, sed dictum ex gravida vitae.</p>
+		</div>
+		<div class="staff02">
+			<img src="_images/staff-01.jpg">
+			<h3>Dr. P. Jenny Foster DDS</h3>
+			<p>Dr. Foster has been practicing Proin gravida consequat nunc, eu maximus purus rutrum eget. In convallis auctor odio, vitae suscipit dolor euismod id. Duis ac arcu ac nisl accumsan scelerisque. Quisque suscipit sem dolor, a luctus ex consequat vel. Nunc ex nisi, finibus ultricies quam ultrices, volutpat porttitor dolor.</p>
+			<p>Sed eros risus, gravida et iaculis at, ullamcorper sed justo. Aenean cursus est eu nisl ullamcorper, non egestas nibh fringilla. Fusce pellentesque odio et diam bibendum tincidunt. Sed fringilla massa nec nulla porta, vel tempus ex eleifend. Cras et libero eu ante ultrices tempor vitae eget massa.</p>
+		</div>
+	</div>
+
+</div>
+
+
+
+<div class="contact-section cf">
+	<h1>Contact Us</h1>
+	<div class="contact-form">
+		
+    <form action="#" class="no-default" method="post" id="contactForm" onSubmit="return validateEmail(document.forms[0].email.value);">
+        
+	    <ul>
+	        <li>
+	          <label class="text" for="name">Name</label>
+	          <input name="name" type="text" id="name" tabindex="10" />
+	        </li>
+	        <li>
+	          <label class="text" for="email">Email</label>
+	          <input name="email" type="email" id="email" tabindex="20" />
+	        </li>
+	        <li>
+	          <label class="text" for="comments">Comments</label>
+	          <textarea name="comments" id="comments" tabindex="30"></textarea>
+	        </li>
+	        <li>
+	            <input id="send" value="Send" tabindex="40" />
+	        </li>
+	        
+	    </ul> 
+    
+    </form>
+
+	</div>	
+</div>
+
+
+<footer class="cf">
 	<div class="section-2-container">
 		<div class="short-txt">
 			<h2>Quick Links</h2>
+			<p><a href="#" class="feetster no-default">Dental Exams &amp; Cleanings</a></p>
+			<p><a href="#" class="feetster no-default">Teeth Whitening</a></p>
+			<p><a href="#" class="feetster no-default">Porcelain Veneers</a></p>
+			<p><a href="#" class="feetster no-default">Crowns (Caps)</a></p>
+			<p><a href="#" class="feetster no-default">Root Canal Therapy</a></p>
 		</div>
 		<div class="short-txt">
-			<h2>Something Here</h2>
+			<h2>Affiliations</h2>
+			<img class="ada imgpad" src="_images/ada-logo.png">
+			<img class="ada" src="_images/aapd.png">
 		</div>
-		<div class="short-txt">
+		<div class="short-txt center">
+			<p></p>
+			<p>27905 Meadow Drive, Evergreen, CO 80439</p>
 			<img src="_images/map.jpg">
 		</div>
 	</div>
