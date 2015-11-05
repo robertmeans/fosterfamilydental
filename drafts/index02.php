@@ -14,7 +14,8 @@ body {
 	<img src="_images/index_02.png" width="1362" height="1174" alt="index 02">
 </div>       
  
- 
+  
 <?php include 'navigation.php'; ?>  
+<script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>

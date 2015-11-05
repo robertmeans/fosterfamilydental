@@ -2,7 +2,7 @@
 <form name="form">
 <div>
     <div class="draft_nav_option">
-    	<label><input type="radio" name="loc"  onClick="go('log.php');"<?php if ($thisPage=="log") echo "checked"; else { echo ""; }?>><br>Log</label>
+    	<label><input type="radio" name="loc"  onClick="go('log.php');"<?php if ($thisPage=="log") echo "checked"; else { echo ""; }?>><br>L<a class="hidden-link" href="index04.php">o</a>g</label>
     </div>
         
 <!-------------------------------------------------------------------------------------------------------------------------------- Begin navigation -->

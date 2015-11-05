@@ -9,7 +9,10 @@
 <title>Foster Family Dental</title>
 <link rel="icon" type="image/ico" href="_images/favicon.ico">
 
-<link rel="stylesheet" type="text/css" href="styles.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Tangerine|Lato' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="style.css" />
 
 <script>
 function go(loc) {
