@@ -1,0 +1,6 @@
+*.sass-cache*
+node_modules
+.gitattributes
+sftp-config.json
+new_client_setup.docx
+_video
