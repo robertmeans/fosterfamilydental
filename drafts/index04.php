@@ -22,13 +22,13 @@
 	<p class="title">Foster Family Dental</p>
 	<ul>
 		<li><a class="no-default" href="#">Home</a></li>
-		<li><a class="no-default" href="#">Our Practice</a></li>
-		<li><a class="no-default" href="#">Our Staff</a></li>
+		<li><a class="no-default" href="#our-practice">Our Practice</a></li>
+		<li><a class="no-default" href="#our-staff">Our Staff</a></li>
 		<li><a class="no-default" href="#">Services</a></li>
-		<li><a class="no-default" href="#">Contact</a></li>
+		<li><a class="no-default" href="#contact">Contact</a></li>
 	</ul>
 </div>      
-<div class="section-2 cf">
+<div id="our-practice" class="section-2 cf">
 	<div class="section-2-container">
 		<h1>Our Practice</h1>
 		<div class="short-txt">
@@ -51,7 +51,7 @@
 </div>
 
 
-<div class="our-staff cf">
+<div id="our-staff" class="our-staff cf">
 	<div class="staff-wrap">
 		<h1>Our Staff</h1>
 		<div class="staff01">
@@ -72,7 +72,7 @@
 
 
 
-<div class="contact-section cf">
+<div id="contact" class="contact-section cf">
 	<h1>Contact Us</h1>
 	<div class="contact-form">
 		
@@ -129,7 +129,7 @@
  
 <?php include 'navigation.php'; ?>  
 
-<script type="text/javascript" src="js /scripts.js?<?php echo time(); ?>"></script>
+<script type="text/javascript" src="js/scripts.js?<?php echo time(); ?>"></script>
 <script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>

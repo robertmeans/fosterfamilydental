@@ -17,6 +17,10 @@
 
     <div class="draft_nav_option">
         <label><input type="radio" name="loc" onClick="go('index03.php');" <?php if ($thisPage=="index03") echo "checked"; else { echo ""; }?>><br>03</label>
+    </div>
+
+    <div class="draft_nav_option">
+        <label><input type="radio" name="loc" onClick="go('index04.php');" <?php if ($thisPage=="index04") echo "checked"; else { echo ""; }?>><br>04</label>
     </div>    
  
 <!--    
