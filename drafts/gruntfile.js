@@ -19,7 +19,8 @@ module.exports = function(grunt) {
 		      sourcemap: 'none'
 		    },
 		    files: {
-		      'style-expanded.css': 'components/sass/style.scss'
+		      // 'style-expanded.css': 'components/sass/style.scss'
+		      'index05-style-expanded.css': 'components/sass/style.scss'
 		    }
 		  },
 		  dist: {
@@ -28,7 +29,8 @@ module.exports = function(grunt) {
 		  		sourcemap: 'none'
 		  	},
 		  	files: {
-		  		'style.css': 'components/sass/style.scss'
+		  		// 'style.css': 'components/sass/style.scss'
+		  		'index05-style.css': 'components/sass/style.scss'
 		  	}
 		  }
 		},

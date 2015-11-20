@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Foster Family Dental - Evergreen, Colorado</title>
-	<!-- <link rel="icon" type="image/ico" href="_images/favicon.ico"> -->
+	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="_scripts/custom-modernizr.js?<?php echo time(); ?>"></script>
@@ -19,7 +19,7 @@
 <div id="wrapper">
 <header>
 	<h1>Foster Family Dental</h1>
-	<img src="_images/under-construction-ffd.png" alt="Under Construction">
+	<img src="_images/under-construction-ffd2.png" alt="Under Construction">
 </header>
 <section id="left-side">
 
