@@ -217,6 +217,23 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
 // end jquery.scrollmagic.min.js
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // begin - smooth scrolling for everyone!
 $(function(){ 
 
@@ -339,6 +356,24 @@ $('a.no-default').click(function(e)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var btt = $('.back-to-top');
 
 btt.on('click', function(e) {
@@ -361,16 +396,27 @@ $(window).on('scroll', function () {
       } else {
           btt.hide();
         }
-  }); 
+
+    if ($(this).scrollTop() > 600) {
+            $('#menu').fadeIn(500);
+        } else {
+            $('#menu').fadeOut(500);
+        }
+  });
 
 
-function overlay() {
-  el = document.getElementById("overlay");
-  el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible"; 
-}
 
 
-// $('.join-now-btn').click(function() {
-//       $("#da-body").removeClass("modal-open");
-//       $(this).addClass('modal-open');
-// });
+
+// function below was added to function above and now it works...
+// (function($) {          
+//     $(document).ready(function(){                    
+//         $(window).scroll(function(){                          
+//             if ($(this).scrollTop() > 500) {
+//                 $('#menu').fadeIn(500);
+//             } else {
+//                 $('#menu').fadeOut(500);
+//             }
+//         });
+//     });
+// })(jQuery);

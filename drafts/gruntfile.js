@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 		  	},
 		  	files: {
 		  		// 'style.css': 'components/sass/style.scss'
-		  		'index05-style.css': 'components/sass/style.scss'
+		  		'index06-style.css': 'components/sass/style.scss'
 		  	}
 		  }
 		},

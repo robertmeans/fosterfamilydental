@@ -307,33 +307,90 @@ body#index04-body {
   margin: 0;
 }
 
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 55px;
+  padding: 15px 0px 0px 30px;
+  box-sizing: border-box;
+  background-color: #370443;
+  color: #ffffff;
+  z-index: 9999;
+  display: none;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  margin-right: 15px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .intro {
-  background-color: #3c0449;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #370443;
+  background: url(_images/purple-flower-background.jpg) center fixed;
   background-size: cover;
-  height: 1080px;
+  box-sizing: border-box;
+  height: 100vh;
   text-align: center;
 }
-.intro .top-btm-blocks {
-  height: 25%;
+.intro .top-block {
+  height: 10%;
   width: 80%;
   max-width: 960px;
   background: beige;
   margin: 0 auto;
+  box-sizing: border-box;
+  border-top: 2px solid #e7b738;
+  border-right: 2px solid #e7b738;
+  border-bottom: 1px solid #c7c790;
+  border-left: 2px solid #e7b738;
+}
+.intro .btm-block {
+  height: 10%;
+  width: 80%;
+  max-width: 960px;
+  background: beige;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-top: 1px solid #c7c790;
+  border-right: 2px solid #e7b738;
+  border-bottom: 2px solid #e7b738;
+  border-left: 2px solid #e7b738;
 }
 .intro .intro-wrap {
+  box-sizing: border-box;
+  border-left: 2px solid #e7b738;
+  border-right: 2px solid #e7b738;
   background: #fff;
   width: 80%;
   max-width: 960px;
   text-align: center;
   margin: 0 auto;
-  height: 50%;
+  padding: 40px 0px;
 }
 .intro .info {
   width: 100%;
   max-width: 580px;
   height: 175px;
   margin: 0 auto;
-  padding-top: 60px;
   position: relative;
 }
 .intro .info img {
@@ -406,7 +463,7 @@ body#index04-body {
 }
 
 .section-2 {
-  border-top: 20px solid #1d3630;
+  border-top: 20px solid #fff;
   background: linear-gradient(#efe2ff, #d0a7ff) fixed;
   padding-bottom: 130px;
 }
@@ -601,7 +658,7 @@ footer .section-2-container .short-txt a.feetster:hover {
   width: 30px;
   height: 28px;
   bottom: 0px;
-  right: 40px;
+  right: 50%;
   text-align: center;
   background-color: rgba(231, 183, 56, 0.6);
   padding: 10px 10px 0px 10px;

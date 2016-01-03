@@ -8,7 +8,7 @@
 
 
 <div class="intro">
-<div class="top-btm-blocks"></div>
+<div class="top-block cf">&nbsp;</div>
 	<div class="intro-wrap">
 
 		<div class="info cf">
@@ -29,7 +29,7 @@
 			<li><a class="no-default" href="#contact">Contact</a></li>
 		</ul>
 	</div><!-- .intro-wrap -->
-	<div class="top-btm-blocks"></div>
+	<div class="btm-block cf">&nbsp;</div>
 </div> <!-- .intro -->     
 <div id="our-practice" class="section-2 cf">
 	<div class="section-2-container">

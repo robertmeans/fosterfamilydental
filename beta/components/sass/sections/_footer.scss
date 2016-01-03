@@ -1,0 +1,41 @@
+footer {
+	// height: 360px;
+	border-top: 5px solid #e7b738;
+	background: #e8e8e8;
+	color: #1d3630;
+	padding-bottom: 80px;
+}
+footer .our-practice-container .short-txt {
+	margin-top: 50px;
+	h2 {
+		padding-bottom: 8px;
+		border-bottom: 2px solid #313131;
+		font-family: Georgia, serif;
+	}
+	img {
+		max-width: 325px;
+		border: 2px solid #fff;
+		border-radius: 0;
+		box-shadow: none;
+		margin: 0;
+		vertical-align: middle;
+		display: inline-block;
+
+	}
+	img.ada {
+		width: 100%;
+		max-width: 150px;
+		border: none;
+		vertical-align: middle;
+	}
+	img.imgpad {
+		margin-right: 30px;
+	}
+	a.feetster {
+		color: #0000ff;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
