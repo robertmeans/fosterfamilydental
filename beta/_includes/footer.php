@@ -1,4 +1,4 @@
-<footer class="cf">
+<footer class="cf target">
 	<div class="our-practice-container">
 		<div class="short-txt">
 			<h2>Quick Links</h2>

@@ -31,7 +31,7 @@
 	</div><!-- .intro-wrap -->
 	<div class="btm-block cf">&nbsp;</div>
 </div> <!-- .intro -->     
-<div id="our-practice" class="our-practice cf">
+<div id="our-practice" class="our-practice target cf">
 	<div class="our-practice-container">
 		<h1>Our Practice</h1>
 		<div class="short-txt">
@@ -54,7 +54,7 @@
 </div>
 
 
-<div id="our-staff" class="our-staff cf">
+<div id="our-staff" class="our-staff target cf">
 	<div class="staff-wrap">
 		<h1>Our Staff</h1>
 		<div class="staff01">
@@ -75,7 +75,7 @@
 
 
 
-<div id="contact" class="contact-section cf">
+<div id="contact" class="contact-section target cf">
 	<h1>Contact Us</h1>
 	<div class="contact-form">
 		

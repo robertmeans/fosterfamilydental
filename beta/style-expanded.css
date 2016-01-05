@@ -445,7 +445,7 @@ a.hidden-link:hover {
 }
 .our-practice {
   border-top: 20px solid #fff;
-  background: linear-gradient(#efe2ff, #d0a7ff) fixed;
+  background-color: white;
   padding-bottom: 130px;
 }
 
@@ -591,7 +591,7 @@ footer {
   border-top: 5px solid #e7b738;
   background: #e8e8e8;
   color: #1d3630;
-  padding-bottom: 80px;
+  padding-bottom: 600px;
 }
 
 footer .our-practice-container .short-txt {
@@ -633,40 +633,76 @@ nav#menu {
   top: 0px;
   width: 100%;
   height: 4em;
-  line-height: 4em;
-  list-style: none;
-  border-bottom: 1px solid purple;
-  margin: 0;
-  text-align: center;
+  height: 4em;
   box-sizing: border-box;
-  background-color: rgba(128, 102, 172, 0.9);
-  color: #fff;
-  z-index: 9999;
+  text-align: center;
   display: none;
+  background-color: rgba(128, 102, 172, 0.9);
+  border-bottom: 1px solid purple;
+  color: #fff;
 }
 nav#menu ul {
+  line-height: 4em;
   list-style: none;
-  margin-left: 0;
+  margin: 0;
+  padding-left: 0;
 }
-nav#menu ul li {
-  margin-right: 15px;
+nav#menu ul ul {
+  position: absolute;
+  left: -9999px;
+  z-index: 99999;
+  line-height: 3em;
+  float: left;
+  padding: 0;
+  background-color: rgba(128, 102, 172, 0.9);
+}
+nav#menu ul ul ul {
+  left: -999em;
+  top: 0;
+}
+nav#menu ul ul li:hover > ul, nav#menu ul ul li.focus > ul {
+  left: 100%;
+}
+nav#menu ul ul a {
+  width: 200px;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  border-bottom: 1px solid white;
+  text-align: left;
+  line-height: 3em;
+}
+nav#menu ul ul a:hover,
+nav#menu ul ul a.focus {
+  background-color: purple;
+}
+nav#menu ul li:hover > ul,
+nav#menu ul li.focus > ul {
+  left: 0px;
+}
+nav#menu li {
   display: inline;
+  float: none;
+  position: relative;
 }
 nav#menu a {
-  color: #fff;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0px 20px;
   text-decoration: none;
-  padding: 8px;
-  border-radius: 3px;
+  color: #fff;
+  transition: background-color .3s ease;
 }
-nav#menu a:hover {
-  background-color: #fff;
-  transition: background-color .5s ease;
-  color: #757575;
+nav#menu a:hover, nav#menu a.focus {
+  background-color: rgba(80, 0, 136, 0.9);
+}
+nav#menu a.active {
+  background-color: rgba(80, 0, 136, 0.3);
+  cursor: default;
+  border-sizing: border-box;
 }
 
-.active-nav {
-  color: red;
-  text-decoration: underline;
+nav#menu ul ul a.nb {
+  border-bottom: none;
 }
 
 @media screen and (max-width: 720px) {
@@ -711,7 +747,7 @@ nav#menu a:hover {
     padding: 10px;
   }
 
-  ul#mmenu {
+  ul#mobile-menu {
     margin-left: 5px;
   }
 

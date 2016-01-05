@@ -285,52 +285,46 @@ $(function() {
     }
   }); 
 
-  //highlight item on scroll
-
-  $(window).scroll(function(){
-    var windowpos = $(window).scrollTop()+topoffset+150; 
-    // added 100 so active-nav would trigger before next div had to get to
-    // top:0 but yet still allow the nav to position at top:0 when
-    // navigating between divs
-
-
-    $('nav li a').removeClass('active-nav');
-
-    // if ( windowpos > $('#top-of-page').offset().top) {
-    //     $('nav li a').removeClass('active-nav');
-    //     $('a[href$="#top-of-page"]').addClass('active-nav');
-    // }
-
-    if ( windowpos > $('#intro').offset().top) {
-        $('nav li a').removeClass('active-nav');
-        $('a[href$="#intro"]').not('.no-active-nav').addClass('active-nav');
-    }
-    if ( windowpos > $('#our-practice').offset().top) {
-        $('nav li a').removeClass('active-nav');
-        $('a[href$="#our-practice"]').addClass('active-nav');
-    }
-    if ( windowpos > $('#our-staff').offset().top) {
-        $('nav li a').removeClass('active-nav');
-        $('a[href$="#our-staff"]').addClass('active-nav');
-    }
-  });
-
-
 }); //function
 
 
 
-$(document).ready(function(){
-  $(".click").click(function(){
-    
-    var target = $(this).parent().children(".expand");
-    $(target).slideToggle();
-  });
+
+
+
+
+
+
+
+
+//highlight item on scroll
+
+$('nav#menu a').on('click', function(event) {
+    $(this).parent().find('a').removeClass('active');
+    $(this).addClass('active');
 });
 
-$('#easy-as div a').click(function(){
-    $(this).find('i').toggleClass('fa-minus fa-plus')
+$(window).on('scroll', function() {
+    $('.target').each(function() {
+        if($(window).scrollTop() >= $(this).offset().top-130) {
+            var id = $(this).attr('id');
+            $('nav#menu a').removeClass('active');
+            $('nav#menu a[href=#'+ id +']').addClass('active');
+        }
+    });
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 // stop page from jumping to top when anchor is set to "#"
 // currently in use with SEO Strategies and Pricing links.
@@ -354,6 +348,7 @@ $('a.no-default').click(function(e)
 
 
 
+// back-to-top
 
 var btt = $('.back-to-top');
 
@@ -364,14 +359,6 @@ $('html, body').animate({
 
   e.preventDefault();
 });
-
-
-
-
-
-
-
-
 
 $(window).on('scroll resize', function() {
   var self = $(this),
@@ -387,14 +374,15 @@ $(window).on('scroll resize', function() {
         }
 
 
+// main nav fade in on scroll
 
-      if (($(window).width() >= 600) && ($(this).scrollTop() > 600)) {
-        $('nav#menu').fadeIn(500);
-      } else if (($(window).width() >= 600) && ($(this).scrollTop() < 600)) {
-        $('nav#menu').fadeOut(500);
-      } else {
-        $('nav#menu').hide();
-      }
+    if (($(window).width() >= 600) && ($(this).scrollTop() > 600)) {
+      $('nav#menu').fadeIn(500);
+    } else if (($(window).width() >= 600) && ($(this).scrollTop() < 600)) {
+      $('nav#menu').fadeOut(500);
+    } else {
+      $('nav#menu').hide();
+    }
 
 
   });
@@ -405,28 +393,14 @@ $(window).on('scroll resize', function() {
 
 
 $(document).ready(function($) {
-    $("#mmenu").hide();
-    $(".mtoggle").click(function() {
-        $("#mmenu").slideToggle(500);
+    $("#mobile-menu").hide();
+    $("#toggle-bar").click(function() {
+        $("#mobile-menu").slideToggle(500);
+    });
+
+
+    $('#mobile-menu li a').on('click', function(){
+        $("#mobile-menu").slideUp();
     });
 });
 
-
-
-
-
-
-
-
-// function below was added to function above and now it works...
-// (function($) {          
-//     $(document).ready(function(){                    
-//         $(window).scroll(function(){                          
-//             if ($(this).scrollTop() > 500) {
-//                 $('#menu').fadeIn(500);
-//             } else {
-//                 $('#menu').fadeOut(500);
-//             }
-//         });
-//     });
-// })(jQuery);
