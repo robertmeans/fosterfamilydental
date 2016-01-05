@@ -1,23 +1,25 @@
 .our-practice {
+	// height: 800px;
+	// border-top: 20px solid #1d3630;
 	border-top: 20px solid #fff;
+	// background: linear-gradient(#d5e9d0, #aa9eb2);
 
 	// light purple (original)
 	// background: linear-gradient(#efe2ff, #d0a7ff) fixed; 
 
 	background-color: white;
-	background: url(_images/our-practice-bkg.jpg) center fixed;
-	background-size: cover;
 	padding-bottom: 130px;
 }
 .our-practice-container {
 	width: 100%;
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 0px;
+	padding: 0px 10px;
 	box-sizing: border-box;
 	h1 {
 		text-align: center;
-		margin: 90px 0px 0px 0px;
+		margin-top: 120px;
+		// font-weight: bold;
 		color: #1d3630;
 		font-size: 3em;
 		font-family: Georgia, serif;
@@ -44,31 +46,3 @@
 		box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.2);
 	}
 }
-@media screen and (max-width: 840px) {
-.our-practice-container {
-	h1 {
-		text-align: center;
-		padding-top: 100px;
-		margin: 0 auto;
-		font-size: 3em;
-	}
-	.short-txt {
-		width: 90%;
-		max-width: 520px;
-		float: none;
-		padding: 0px 10px;
-		box-sizing: border-box;
-		margin: 80px auto 0 auto;;
-		line-height: 1.5em;
-	}
-	img {
-		width: 100%;
-		max-width: 150px;
-		border-radius: 50%;
-		border: 1px solid #313131;
-		margin: 0px auto 30px auto;
-		display: block;
-	}
-}
-}
-
