@@ -27,31 +27,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <nav id="mobile">
     <div id="toggle-bar">
        <!--  <strong><a class="mtoggle no-default" href="#">MENU</a></strong> -->
         <a class="navicon no-default" href="#"><i class="fa fa-bars"></i></a>
     </div>
-
-    <ul id="mobile-menu">
+    <ul id="mobile-menu" class="mobile-scroll">
         <li><a href="#">Home</a></li>
         <li><a href="index.php#our-practice">Our Practice</a></li>
         <li><a href="index.php#our-staff">Our Staff</a></li>
@@ -65,5 +46,4 @@
         </li>
         <li><a href="index.php#contact">Contact</a></li>       	
     </ul>
-
 </nav>

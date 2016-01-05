@@ -2,7 +2,7 @@
 <?php include '_includes/header.php'; ?> 
 
 </head>
-<body id="index04-body">
+<body id="index04-body" onload="loaded()">
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -15,9 +15,9 @@
 		<div class="info cf">
 			<img src="_images/ffd-logo-01.png">
 			<div class="info-txt">
-				<p><i class="fa fa-phone-square"></i> (303) 674-1373</p>
+				<p><i class="fa fa-phone-square ph"></i> <a class="tel" tabIndex="-1" href="tel:(303)%20674-1373">(303) 674-1373</a></p>
 				<p><i class="fa fa-clock-o"></i> Monday - Friday 8 AM - 5 PM</p>
-				<p><i class="fa fa-map-marker"></i> 27905 Meadow Drive, Evergreen, CO 80439</p>
+				<p><i class="fa fa-map-marker ep"></i> 27905 Meadow Drive, Evergreen, CO 80439</p>
 			</div>
 		</div>
 
@@ -58,16 +58,16 @@
 	<div class="staff-wrap">
 		<h1>Our Staff</h1>
 		<div class="staff01">
-			<img src="_images/staff-02.jpg">
-			<h3>Sandy Johnson</h3>
-			<p>Sandy started her vitae imperdiet augue rutrum a. Morbi accumsan vestibulum fermentum. Sed hendrerit diam vestibulum erat luctus, ac condimentum justo mollis. Nunc mollis nulla ipsum, sed consequat metus ultrices quis. Nunc non odio interdum, auctor dui a, venenatis nibh. Morbi auctor lorem id feugiat gravida.</p>
-			<p>Aenean mollis eleifend magna, id mollis justo venenatis vel. In in lacus in risus faucibus finibus. Mauris at eros ac arcu congue maximus. Etiam eu velit nibh. Ut ultricies tempor mauris, sed dictum ex gravida vitae.</p>
-		</div>
-		<div class="staff02">
-			<img src="_images/staff-01.jpg">
+			<img src="_images/female-dr-avatar.png">
 			<h3>Dr. P. Jenny Foster DDS</h3>
 			<p>Dr. Foster has been practicing Proin gravida consequat nunc, eu maximus purus rutrum eget. In convallis auctor odio, vitae suscipit dolor euismod id. Duis ac arcu ac nisl accumsan scelerisque. Quisque suscipit sem dolor, a luctus ex consequat vel. Nunc ex nisi, finibus ultricies quam ultrices, volutpat porttitor dolor.</p>
 			<p>Sed eros risus, gravida et iaculis at, ullamcorper sed justo. Aenean cursus est eu nisl ullamcorper, non egestas nibh fringilla. Fusce pellentesque odio et diam bibendum tincidunt. Sed fringilla massa nec nulla porta, vel tempus ex eleifend. Cras et libero eu ante ultrices tempor vitae eget massa.</p>
+		</div>
+		<div class="staff02">
+			<img src="_images/female-dr-avatar.png">
+			<h3>Sandy Johnson</h3>
+			<p>Sandy started her vitae imperdiet augue rutrum a. Morbi accumsan vestibulum fermentum. Sed hendrerit diam vestibulum erat luctus, ac condimentum justo mollis. Nunc mollis nulla ipsum, sed consequat metus ultrices quis. Nunc non odio interdum, auctor dui a, venenatis nibh. Morbi auctor lorem id feugiat gravida.</p>
+			<p>Aenean mollis eleifend magna, id mollis justo venenatis vel. In in lacus in risus faucibus finibus. Mauris at eros ac arcu congue maximus. Etiam eu velit nibh. Ut ultricies tempor mauris, sed dictum ex gravida vitae.</p>
 		</div>
 	</div>
 
