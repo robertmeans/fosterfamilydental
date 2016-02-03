@@ -1,4 +1,3 @@
-<?php $thisPage="services"; ?>
 <?php include '_includes/services-header.php'; ?> 
 
 </head>
@@ -10,7 +9,7 @@
 
 <div id="services" class="target">
 <div id="occupy-space">
-	<p>Summary of services</p>
+	<p>Preventative</p>
 </div>
 </div>
 

@@ -1,4 +1,3 @@
-
 <nav id="service-menu">
 	<ul>
 		<li><a class="home-img" href="index.php#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
@@ -6,9 +5,12 @@
 		<li><a href="index.php#our-staff">Our Staff</a></li>
 		<li><a class="no-default service-link" href="#">Services</a>
 			<ul>
-                <li><a href="services.php">Dental Exams</a></li>
-                <li><a href="services.php">Teeth Whitening</a></li>
-                <li><a class="nb" href="services.php">Crowns (Caps)</a></li>
+                <li><a href="services.php">Summary</a></li>
+                <li><a href="preventative.php">Preventative</a></li>
+                <li><a href="restorative.php">Restorative Dentistry</a></li>
+                <li><a href="root-canal-extractions.php">Root Canal &amp; Extractions</a></li>
+                <li><a href="cosmetic.php">Cosmetic Dentistry</a></li>
+                <li><a class="nb" href="patient-information.php">Patient Information</a></li>
             </ul>
 		</li>
 		<li><a href="index.php#contact">Contact</a></li>
@@ -29,10 +31,12 @@
         <li><a href="index.php#our-staff">Our Staff</a></li>
         <li><a class="no-default service-link" href="#">Services</a>
             <ul>
-                <li><a href="services.php">Dental Exams</a></li>
-                <li><a href="#">Teeth Whitening</a></li>
-                <li><a href="#">Crowns (Caps)</a>
-            	</li>
+                <li><a href="services.php">Summary</a></li>
+                <li><a href="preventative.php">Preventative</a></li>
+                <li><a href="restorative.php">Restorative Dentistry</a></li>
+                <li><a href="root-canal-extractions.php">Root Canal &amp; Extractions</a></li>
+                <li><a href="cosmetic.php">Cosmetic Dentistry</a></li>
+                <li><a href="patient-information.php">Patient Information</a></li>
             </ul>
         </li>
         <li><a href="index.php#contact">Contact</a></li>       	
