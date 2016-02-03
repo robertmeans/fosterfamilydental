@@ -6,7 +6,8 @@ module.exports = function(grunt) {
 		uglify: {
 			my_target: {
 				files: {
-					'js/scripts.js': ['components/javascript-to-compile/_scripts-staging.js']
+					'js/scripts.js': ['components/javascript-to-compile/_scripts-staging.js'],
+					'js/services-scripts.js': ['components/javascript-to-compile/_services-scripts-staging.js']
 				} //files
 			} //my_target
 		}, //uglify		
@@ -19,7 +20,8 @@ module.exports = function(grunt) {
 		      sourcemap: 'none'
 		    },
 		    files: {
-		      'style-expanded.css': 'components/sass/style.scss'
+		      'style-expanded.css': 'components/sass/style.scss',
+		      'style-services-expanded.css': 'components/sass/style-services.scss'
 		    }
 		  },
 		  dist: {
@@ -28,7 +30,8 @@ module.exports = function(grunt) {
 		  		sourcemap: 'none'
 		  	},
 		  	files: {
-		  		'style.css': 'components/sass/style.scss'
+		  		'style.css': 'components/sass/style.scss',
+		  		'style-services.css': 'components/sass/style-services.scss'
 		  	}
 		  }
 		},
@@ -50,7 +53,7 @@ module.exports = function(grunt) {
 		watch: {
 			options: { livereload: true },
 			scripts: {
-				files: ['components/javascript-to-compile/_scripts-staging.js'],
+				files: ['components/javascript-to-compile/_scripts-staging.js','components/javascript-to-compile/_services-scripts-staging.js'],
 				tasks: ['uglify']
 			}, //scripts			
 			css: {

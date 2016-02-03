@@ -376,10 +376,10 @@ $(window).on('scroll resize', function() {
 
 // main nav fade in on scroll
 
-    if (($(window).width() >= 600) && ($(this).scrollTop() > 600)) {
+    if (($(window).width() >= 550) && ($(this).scrollTop() > 550)) {
 
       $('nav#menu').fadeIn(500);
-    } else if (($(window).width() >= 600) && ($(this).scrollTop() < 600)) {
+    } else if (($(window).width() >= 550) && ($(this).scrollTop() < 550)) {
       $('nav#menu').fadeOut(500);
     } else {
       $('nav#menu').hide();

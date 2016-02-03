@@ -1,19 +1,10 @@
 
-
-
-
-
-
-
-
-
-
-<nav id="menu">
+<nav id="service-menu">
 	<ul>
-		<!-- <li><a href="#">Home</a></li> -->
+		<li><a href="index.php#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
 		<li><a href="index.php#our-practice">Our Practice</a></li>
 		<li><a href="index.php#our-staff">Our Staff</a></li>
-		<li><a href="services.php">Services</a>
+		<li><a class="no-default service-link" href="#">Services</a>
 			<ul>
                 <li><a href="services.php">Dental Exams</a></li>
                 <li><a href="services.php">Teeth Whitening</a></li>
@@ -33,12 +24,12 @@
         <a class="navicon no-default" href="#"><i class="fa fa-bars"></i></a>
     </div>
     <ul id="mobile-menu" class="mobile-scroll">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
         <li><a href="index.php#our-practice">Our Practice</a></li>
         <li><a href="index.php#our-staff">Our Staff</a></li>
-        <li><a href="services.php">Services</a>
+        <li><a class="no-default service-link" href="#">Services</a>
             <ul>
-                <li><a href="#">Dental Exams</a></li>
+                <li><a href="services.php">Dental Exams</a></li>
                 <li><a href="#">Teeth Whitening</a></li>
                 <li><a href="#">Crowns (Caps)</a>
             	</li>
