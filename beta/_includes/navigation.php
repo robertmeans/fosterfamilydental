@@ -2,7 +2,7 @@
 
 <nav id="menu">
     <ul>
-        <li><a href="#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
+        <li><a class="home-img" href="#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
         <li><a href="#our-practice">Our Practice</a></li>
         <li><a href="#our-staff">Our Staff</a></li>
         <li><a class="no-default service-link" href="#">Services</a>

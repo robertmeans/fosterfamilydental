@@ -1,7 +1,7 @@
 
 <nav id="service-menu">
 	<ul>
-		<li><a href="index.php#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
+		<li><a class="home-img" href="index.php#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
 		<li><a href="index.php#our-practice">Our Practice</a></li>
 		<li><a href="index.php#our-staff">Our Staff</a></li>
 		<li><a class="no-default service-link" href="#">Services</a>

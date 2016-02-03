@@ -1,3 +1,9 @@
 .service-link {
 	cursor: default;
 }
+nav#menu a.home-img:hover,
+nav#menu a.home-img.focus,
+nav#service-menu a.home-img:hover,
+nav#service-menu a.home-img.focus {
+	background-color: inherit;
+}
