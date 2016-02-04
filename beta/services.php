@@ -2,7 +2,7 @@
 <?php include '_includes/services-header.php'; ?> 
 
 </head>
-<body id="services" onload="loaded()">
+<body class="services" onload="loaded()">
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -10,8 +10,7 @@
 
 <div id="services" class="target">
 <div id="occupy-space">
-	<p>Hello Jenny,<br><br>
-		You found the detail that needs your direction.</p>
+	<p>Summary of services</p>
 </div>
 </div>
 

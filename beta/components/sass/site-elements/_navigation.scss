@@ -4,7 +4,6 @@ nav#menu {
     top: 0px;
     width: 100%;
     height: 4em;
-	height: 4em;
 	box-sizing: border-box;
 	text-align: center;
 	display: none;
@@ -17,6 +16,10 @@ nav#menu {
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+
+		img {
+			margin-bottom: -.9em;
+		}
 		
 		ul { // dropdown
 			// box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -97,12 +100,23 @@ nav#menu {
 	    	cursor: default;
 	    	border-sizing: border-box;
 	    }
+	    &.no-active {
+	    	background-color: inherit;
+	    	&:hover,
+	    	&.focus {
+	    		background-color: rgba(80,0,136,.9);
+	    	}
+	    }
 	}
 
 }
 // nav#menu a.active {
 //    background-color: green;
 // }
+
+
+
+
 nav#menu ul ul a.nb {
 	border-bottom: none;
 }
@@ -149,6 +163,7 @@ nav#menu ul ul a.nb {
 	nav#mobile {
 		position: fixed;
 		right: 0;
+		top: 0;
 		width: 100%;
 		z-index: 9998;
 		background-color: #3d2468;

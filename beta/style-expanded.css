@@ -725,17 +725,6 @@ a.hidden-link:hover {
   cursor: pointer;
 }
 
-#occupy-space {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  height: 300px;
-}
-#occupy-space p {
-  margin-top: 150px;
-  color: #757575;
-}
-
 footer {
   border-top: 5px solid #e7b738;
   background: #e8e8e8;
@@ -782,7 +771,6 @@ nav#menu {
   top: 0px;
   width: 100%;
   height: 4em;
-  height: 4em;
   box-sizing: border-box;
   text-align: center;
   display: none;
@@ -795,6 +783,9 @@ nav#menu ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+nav#menu ul img {
+  margin-bottom: -.9em;
 }
 nav#menu ul ul {
   position: absolute;
@@ -849,6 +840,12 @@ nav#menu a.active {
   cursor: default;
   border-sizing: border-box;
 }
+nav#menu a.no-active {
+  background-color: inherit;
+}
+nav#menu a.no-active:hover, nav#menu a.no-active.focus {
+  background-color: rgba(80, 0, 136, 0.9);
+}
 
 nav#menu ul ul a.nb {
   border-bottom: none;
@@ -868,6 +865,7 @@ nav#menu ul ul a.nb {
   nav#mobile {
     position: fixed;
     right: 0;
+    top: 0;
     width: 100%;
     z-index: 9998;
     background-color: #3d2468;
@@ -950,4 +948,14 @@ nav#menu ul ul a.nb {
     content: ">";
     padding-right: 8px;
   }
+}
+.service-link {
+  cursor: default;
+}
+
+nav#menu a.home-img:hover,
+nav#menu a.home-img.focus,
+nav#service-menu a.home-img:hover,
+nav#service-menu a.home-img.focus {
+  background-color: inherit;
 }

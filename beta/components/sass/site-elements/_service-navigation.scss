@@ -1,0 +1,12 @@
+// top fixed menu
+nav#menu {
+    display: block;
+}
+body.cosmetic nav#menu ul li a.no-active,
+body.patient-information nav#menu ul li a.no-active,
+body.preventative nav#menu ul li a.no-active,
+body.restorative nav#menu ul li a.no-active,
+body.services nav#menu ul li a.no-active,
+ {
+		background-color: rgba(80,0,136,.3);
+}

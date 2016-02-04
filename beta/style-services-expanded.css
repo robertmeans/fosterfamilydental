@@ -1,0 +1,33 @@
+#occupy-space {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 300px;
+}
+#occupy-space p {
+  margin-top: 150px;
+  color: #757575;
+}
+
+nav#menu {
+  display: block;
+}
+
+body.cosmetic nav#menu ul li a.no-active,
+body.patient-information nav#menu ul li a.no-active,
+body.preventative nav#menu ul li a.no-active,
+body.restorative nav#menu ul li a.no-active,
+body.services nav#menu ul li a.no-active {
+  background-color: rgba(80, 0, 136, 0.3);
+}
+
+.service-link {
+  cursor: default;
+}
+
+nav#menu a.home-img:hover,
+nav#menu a.home-img.focus,
+nav#service-menu a.home-img:hover,
+nav#service-menu a.home-img.focus {
+  background-color: inherit;
+}

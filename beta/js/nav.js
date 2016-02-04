@@ -1,0 +1,1 @@
+$(window).on("scroll resize",function(){var a=$(this);a.height(),a.scrollTop();$(window).width()>=550&&$(this).scrollTop()>550?$("nav#menu").fadeIn(500):$(window).width()>=550&&$(this).scrollTop()<550?$("nav#menu").fadeOut(500):$("nav#menu").hide()});
