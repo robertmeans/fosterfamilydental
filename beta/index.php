@@ -2,7 +2,7 @@
 <?php include '_includes/header.php'; ?> 
 
 </head>
-<body id="index04-body" onload="loaded()">
+<body id="index04-body">
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -120,6 +120,7 @@
   
 
 <script type="text/javascript" src="js/scripts.js?<?php echo time(); ?>"></script>
+<script type="text/javascript" src="js/nav.js?<?php echo time(); ?>"></script>
 <script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>

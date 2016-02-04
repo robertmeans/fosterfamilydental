@@ -1,9 +1,10 @@
 <nav id="menu">
     <ul>
-        <li><a class="home-img" href="#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
-        <li><a href="#our-practice">Our Practice</a></li>
-        <li><a href="#our-staff">Our Staff</a></li>
-        <li><a class="no-default service-link" href="#">Services</a>
+        <li><a class="home-img" href="index.php#top-of-page"><img src="_images/ffd-logo-nav.png"></a></li>
+        <li><a href="index.php#our-practice">Our Practice</a></li>
+        <li><a href="index.php#our-staff">Our Staff</a></li>
+        <!-- <li><a class="no-default no-active service-link" href="#">Services</a> -->
+        <li><a class="no-default no-active service-link" href="#">Services</a>
             <ul>
                 <li><a href="services.php">Summary</a></li>
                 <li><a href="preventative.php">Preventative</a></li>
@@ -13,7 +14,7 @@
                 <li><a class="nb" href="patient-information.php">Patient Information</a></li>
             </ul>
         </li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.php#contact">Contact</a></li>
     </ul>
 </nav>
 

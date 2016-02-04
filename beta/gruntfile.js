@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 			my_target: {
 				files: {
 					'js/scripts.js': ['components/javascript-to-compile/_scripts-staging.js'],
-					'js/services-scripts.js': ['components/javascript-to-compile/_services-scripts-staging.js']
+					'js/nav.js': ['components/javascript-to-compile/_nav-staging.js']
 				} //files
 			} //my_target
 		}, //uglify		
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
 		watch: {
 			options: { livereload: true },
 			scripts: {
-				files: ['components/javascript-to-compile/_scripts-staging.js','components/javascript-to-compile/_services-scripts-staging.js'],
+				files: ['components/javascript-to-compile/_scripts-staging.js','components/javascript-to-compile/_nav-staging.js'],
 				tasks: ['uglify']
 			}, //scripts			
 			css: {

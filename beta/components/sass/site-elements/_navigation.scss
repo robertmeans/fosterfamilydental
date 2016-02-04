@@ -100,12 +100,23 @@ nav#menu {
 	    	cursor: default;
 	    	border-sizing: border-box;
 	    }
+	    &.no-active {
+	    	background-color: inherit;
+	    	&:hover,
+	    	&.focus {
+	    		background-color: rgba(80,0,136,.9);
+	    	}
+	    }
 	}
 
 }
 // nav#menu a.active {
 //    background-color: green;
 // }
+
+
+
+
 nav#menu ul ul a.nb {
 	border-bottom: none;
 }

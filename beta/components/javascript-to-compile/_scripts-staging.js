@@ -291,10 +291,18 @@ $(function() {
 
 
 
+// here's a bunch of code that works somehow but is surely overkill...
+// highlight active menu item
+var url = window.location.href;
 
+// Will only work if string in href matches with location
+$('nav#menu a').removeClass('active');
+$('nav#menu a[href="'+ url +'"]').addClass('active');
 
-
-
+// Will also work for relative and absolute hrefs
+$('nav#menu a').filter(function() {
+    return this.href == url;
+}).addClass('active');
 
 
 //highlight item on scroll
@@ -302,6 +310,7 @@ $(function() {
 $('nav#menu a').on('click', function(event) {
     $(this).parent().find('a').removeClass('active');
     $(this).addClass('active');
+    
 });
 
 $(window).on('scroll', function() {
@@ -309,10 +318,12 @@ $(window).on('scroll', function() {
         if($(window).scrollTop() >= $(this).offset().top-130) {
             var id = $(this).attr('id');
             $('nav#menu a').removeClass('active');
-            $('nav#menu a[href=#'+ id +']').addClass('active');
+            $('nav#menu a[href*=#'+ id +']').addClass('active');
+
         }
     });
 });
+
 
 
 
@@ -338,17 +349,8 @@ $('a.no-default').click(function(e)
 
 
 
-
-
-
-
-
-
-
-
-
-
 // back-to-top
+// index.php has it's own additional .js to handle fade in/out nav - navigation.js
 
 var btt = $('.back-to-top');
 
@@ -372,20 +374,6 @@ $(window).on('scroll resize', function() {
       } else {
           btt.hide();
         }
-
-
-// main nav fade in on scroll
-
-    if (($(window).width() >= 550) && ($(this).scrollTop() > 550)) {
-
-      $('nav#menu').fadeIn(500);
-    } else if (($(window).width() >= 550) && ($(this).scrollTop() < 550)) {
-      $('nav#menu').fadeOut(500);
-    } else {
-      $('nav#menu').hide();
-    }
-
-
   });
 
 

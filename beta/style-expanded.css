@@ -840,6 +840,12 @@ nav#menu a.active {
   cursor: default;
   border-sizing: border-box;
 }
+nav#menu a.no-active {
+  background-color: inherit;
+}
+nav#menu a.no-active:hover, nav#menu a.no-active.focus {
+  background-color: rgba(80, 0, 136, 0.9);
+}
 
 nav#menu ul ul a.nb {
   border-bottom: none;
