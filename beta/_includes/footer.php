@@ -1,5 +1,5 @@
 <footer class="cf target">
-	<div class="our-practice-container">
+	<div class="our-practice-container cf">
 		<div class="short-txt">
 			<h2>Quick Links</h2>
 			<p><a href="#" class="feetster no-default">Dental Exams &amp; Cleanings</a></p>

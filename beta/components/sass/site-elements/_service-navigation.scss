@@ -2,11 +2,33 @@
 nav#menu {
     display: block;
 }
-body.cosmetic nav#menu ul li a.no-active,
-body.patient-information nav#menu ul li a.no-active,
-body.preventative nav#menu ul li a.no-active,
-body.restorative nav#menu ul li a.no-active,
-body.services nav#menu ul li a.no-active,
- {
-		background-color: rgba(80,0,136,.3);
+body.cosmetic nav#menu,
+body.patient-information nav#menu,
+body.preventative nav#menu,
+body.restorative nav#menu,
+body.root-canal-extractions nav#menu,
+body.services nav#menu {
+	ul {
+		// top level menu item visual cue when on
+		// sub level page
+		li a.no-active {
+			background-color: rgba(80,0,136,.3);
+		}
+		// dropdown menu item visual cue when on 
+		// that particular page - don't change
+		// color on mouseover.
+		ul a.active {
+			&:hover,
+			&.focus {
+				background-color: rgba(80,0,136,.3);
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 720px) {
+	nav#menu {
+		display: none;
+	}
 }

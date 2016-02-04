@@ -726,6 +726,7 @@ a.hidden-link:hover {
 }
 
 footer {
+  margin-top: 100px;
   border-top: 5px solid #e7b738;
   background: #e8e8e8;
   color: #1d3630;
@@ -754,6 +755,7 @@ footer .our-practice-container .short-txt img.ada {
   max-width: 150px;
   border: none;
   vertical-align: middle;
+  padding-bottom: 15px;
 }
 footer .our-practice-container .short-txt img.imgpad {
   margin-right: 30px;
@@ -853,6 +855,10 @@ nav#menu ul ul a.nb {
 
 @media screen and (max-width: 720px) {
   ul#intro-menu {
+    display: none;
+  }
+
+  nav#menu {
     display: none;
   }
 }
