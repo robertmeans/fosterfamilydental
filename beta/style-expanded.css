@@ -726,11 +726,9 @@ a.hidden-link:hover {
 }
 
 footer {
-  margin-top: 100px;
   border-top: 5px solid #e7b738;
   background: #e8e8e8;
   color: #1d3630;
-  padding-bottom: 600px;
 }
 
 footer .our-practice-container .short-txt {
@@ -765,6 +763,25 @@ footer .our-practice-container .short-txt a.feetster {
   text-decoration: none;
 }
 footer .our-practice-container .short-txt a.feetster:hover {
+  text-decoration: underline;
+}
+
+#copyright {
+  padding-top: 50px;
+  background-color: #e8e8e8;
+  padding-bottom: 500px;
+}
+#copyright .our-practice-container p {
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+  color: #9e9e9e;
+}
+#copyright .our-practice-container p a.ewd-link {
+  color: #9e9e9e;
+  text-decoration: none;
+}
+#copyright .our-practice-container p a.ewd-link:hover {
   text-decoration: underline;
 }
 

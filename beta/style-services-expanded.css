@@ -154,6 +154,21 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 520px) {
+  .service-content {
+    padding: 0 8px 0 8px;
+  }
+
+  .service-content ul li,
+  .service-content ol li {
+    margin: 10px 8px .5em 40px;
+  }
+
+  .service-content .services-ul ul li,
+  .service-content .services-ol ol li {
+    margin: 10px 8px .5em 40px;
+  }
+}
 nav#menu {
   display: block;
 }

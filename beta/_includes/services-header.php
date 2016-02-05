@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<!-- <link rel="icon" type="image/ico" href="http://www.abccompany.com/_images/favicon.ico"> -->
 <META Http-Equiv="Cache-Control" Content="no-cache">
 <META Http-Equiv="Pragma" Content="no-cache">
 <META Http-Equiv="Expires" Content="0">
@@ -10,7 +9,6 @@
 <link rel="icon" type="image/ico" href="_images/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- <script src="https://code.jquery.com/jquery-latest.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Tangerine|Lato' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
