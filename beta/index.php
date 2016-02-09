@@ -35,17 +35,17 @@
 	<div class="our-practice-container">
 		<h1>Our Practice</h1>
 		<div class="short-txt">
-			<img src="_images/ffd-our-practice.jpg">
+			<img src="_images/our-dental-practice.png">
 			<h2>About Our Dental Practice</h2>
 			<p>Dr. Foster and her team are committed to providing comprehensive, conservative care with compassion. We recognize every patient presents with unique needs and conditions; we promise to personalize your treatment and involve you in every aspect of your care. Thank you for allowing us to take care of your dental needs and we look forward to serving you!</p>
 		</div>
 		<div class="short-txt">
-			<img src="_images/education.jpg">
+			<img src="_images/education-prevention.png">
 			<h2>Education &amp; Prevention</h2>
 			<p>At Foster Family Dental, prevention and education is the core of our beliefs.  Thorough dental exams – checking the overall health of your teeth and gums, performing oral cancer exams, and taking x-rays when necessary, are our primary focus.  Routine cleanings, flossing, sealants, and fluoride are all helpful in preventing dental disease as well.  Every effort is made to review detailed oral hygiene instructions so that our patients are successful in maintaining optimum oral health. We recognize that to succeed in creating a beautiful smile, a healthy foundation must be established. </p>
 		</div>
 		<div class="short-txt">
-			<img src="_images/high-standards.jpg">
+			<img src="_images/high-standards.png">
 			<h2>Our Promise</h2>
 			<p>We promise to work effortlessly to restore and maintain your teeth to their most natural state.  Dr. Foster is receptive to those looking for dental care that integrates science with a more natural approach; our facility is mercury-free and we follow safe mercury-removal practice and we offer a large selection of natural, fluoride-free products to help sustain ideal oral health.</p>
 

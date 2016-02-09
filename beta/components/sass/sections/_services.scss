@@ -1,3 +1,9 @@
+body.services img.services-header-img {
+	display: block;
+	margin: 44px auto 0 auto ;
+	width: 100%;
+	max-width: 1200px;
+}
 .service-body{
 	display: flex;
 	flex-direction: row;
@@ -5,7 +11,7 @@
 	width: 100%;
 	max-width: 1280px;
 	padding: 0 40px;
-	margin: 100px auto 50px auto;
+	margin: 60px auto 50px auto;
 	box-sizing: border-box;
 	color: #757575;
 	h1 {
@@ -74,8 +80,17 @@
 
 @media screen and (max-width: 650px) {
 	.service-body{
+		padding: 0 10px;
+		margin: 20px auto 50px auto;
+
 		a.anchor-box-wrap {
 			width: 98%;
 		}
+	}
+body.services img.services-header-img {
+	display: block;
+	margin: 54px auto 0 auto ;
+	width: 100%;
+	max-width: 1200px;
 	}
 }

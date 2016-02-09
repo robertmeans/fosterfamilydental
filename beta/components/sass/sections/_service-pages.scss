@@ -33,6 +33,16 @@
 			margin: 10px 0px .5em 80px;
 		}
 	}
+	img.cosmetic-img {
+		display: block;
+		float: right;
+		width: 100%;
+		max-width: 500px;
+		margin: 0 0 20px 20px;
+		box-shadow: -2px 2px 3px 0px rgba(0,0,0,0.1);
+		border-top: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
 	.btt-sep {
 		width: 75%;
 		margin: 0 auto;
@@ -78,10 +88,19 @@
 		}
 	}
 }
+@media screen and (max-width: 1000px) {
+	.service-content {
+		img.cosmetic-img {
+			float: none;
+			margin: 0 auto 20px auto;
+		}
+	}
+}
 
 @media screen and (max-width: 520px) {
 	.service-content {
 		padding: 0 8px 0 8px;
+		margin: 54px auto 50px auto;
 	}
 	.service-content ul li,
 	.service-content ol li {

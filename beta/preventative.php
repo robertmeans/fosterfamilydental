@@ -8,7 +8,7 @@
 <?php include '_includes/navigation.php'; ?>
 
 <div class="service-content">
-	<h1>Services - Preventative</h1>
+	<img class="cosmetic-img" src="_images/services-preventative.jpg"><h1>Services - Preventative</h1>
 		<ul>
 			<li><a href="#comprehensive-exams">Comprehensive Exams</a></li>
 			<li><a href="#dental-cleanings">Dental Cleanings</a></li>

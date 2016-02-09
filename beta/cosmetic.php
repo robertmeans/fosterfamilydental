@@ -9,7 +9,7 @@
 
 <div class="service-content">
 	<div class="services-ul">
-		<h1>Cosmetic Dentistry</h1>
+		<img class="cosmetic-img" src="_images/cosmetic-dentistry.jpg"><h1>Cosmetic Dentistry</h1>
 		<p>For most patients, basic preventative and restorative care is all that is needed to maintain a healthy beautiful smile.  However, if you would like to change your smile to become more esthetically pleasing, our office offers a number of procedures that can improve the appearance of your teeth.</p>
 
 		<p>Cosmetic procedures we offer include:</p>

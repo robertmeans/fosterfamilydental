@@ -7,7 +7,7 @@
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
 <?php include '_includes/navigation.php'; ?>
-
+<img class="services-header-img" src="_images/services.jpg">
 <div class="service-body">
 	<div class="service-header">
 		<h1>Summary of services</h1>
@@ -49,9 +49,8 @@
 	<a class="anchor-box-wrap" href="patient-information.php">
 	<div class="service-box">
 		<h3>Patient Information</h3>
-		<p>Insurance</p>
-		<p>Payment</p>
-		<p>Details</p>
+		<p>Insurance/Payment Details</p>
+		<p>Dental Savings Plan</p>
 
 	</div></a>
 </div>

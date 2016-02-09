@@ -10,13 +10,14 @@
 		</div>
 		<div class="short-txt">
 			<h2>Affiliations</h2>
-			<img class="ada imgpad" src="_images/ada-logo.png">
-			<img class="ada" src="_images/aapd.png">
+			<a href="http://www.aapd.org/" target="_blank"><img class="ada" src="_images/aapd.png"></a>
 		</div>
 		<div class="short-txt center">
 			<p></p>
-			<p>27905 Meadow Drive, Evergreen, CO 80439</p>
-			<img src="_images/map.jpg">
+			<p><a class="loc" tabIndex="-1" href="https://www.google.com/maps/place/27905+Meadow+Dr,+Evergreen,+CO+80439/@39.6379498,-105.3166052,19z/data=!3m1!4b1!4m2!3m1!1s0x876b9e75cbd86ab7:0x902ca82b42ade638" target="_blank">27905 Meadow Drive, Evergreen, CO 80439</a></p>
+			<!-- <img src="_images/map.jpg"> -->
+			<div class="overlay" onClick="style.pointerEvents='none'"><!-- prevent wheel zoom over map --></div>
+			<div id="map"></div>
 		</div>
 	</div>
 
