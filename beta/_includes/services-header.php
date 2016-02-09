@@ -1,3 +1,4 @@
+<?php require_once('_includes/popup-contactform.php'); ?>
 <!DOCTYPE HTML>
 <html>
 <head>

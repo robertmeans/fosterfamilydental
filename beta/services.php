@@ -2,7 +2,7 @@
 <?php include '_includes/services-header.php'; ?> 
 
 </head>
-<body class="services">
+<body class="services" onload="javascript:fg_hideform('fg_formContainer','fg_backgroundpopup');">
 <div id="top-of-page">&nbsp;</div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -56,7 +56,7 @@
 </div>
 
 <?php include '_includes/footer.php'; ?>
-  
+<?php require_once('_includes/contactform-code.php'); ?>    
 
 <script type="text/javascript" src="js/scripts.js?<?php echo time(); ?>"></script>
 

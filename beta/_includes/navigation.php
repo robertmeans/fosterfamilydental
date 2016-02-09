@@ -14,7 +14,7 @@
                 <li><a class="nb" href="patient-information.php">Patient Information</a></li>
             </ul>
         </li>
-        <li><a href="index.php#contact">Contact</a></li>
+        <li><a href='javascript:fg_popup_form("fg_formContainer","fg_form_InnerContainer","fg_backgroundpopup");' class="about-contact">Contact</a></li>
     </ul>
 </nav>
 
@@ -40,6 +40,6 @@
                 <li><a href="patient-information.php">Patient Information</a></li>
             </ul>
         </li>
-        <li><a href="index.php#contact">Contact</a></li>        
+        <li><a href='javascript:fg_popup_form("fg_formContainer","fg_form_InnerContainer","fg_backgroundpopup");' class="about-contact">Contact</a></li>        
     </ul>
 </nav>

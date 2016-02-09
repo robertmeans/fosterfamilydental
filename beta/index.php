@@ -2,7 +2,7 @@
 <?php include '_includes/header.php'; ?> 
 
 </head>
-<body id="index04-body">
+<body id="index04-body" onload="javascript:fg_hideform('fg_formContainer','fg_backgroundpopup');">
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -26,7 +26,7 @@
 			<li><a class="no-default" href="#our-practice">Our Practice</a></li>
 			<li><a class="no-default" href="#our-staff">Our Staff</a></li>
 			<li><a href="services.php">Services</a></li>
-			<li><a class="no-default" href="#contact">Contact</a></li>
+			<li><a href='javascript:fg_popup_form("fg_formContainer","fg_form_InnerContainer","fg_backgroundpopup");' class="about-contact">Contact</a></li>
 		</ul>
 	</div><!-- .intro-wrap -->
 	<div class="btm-block cf">&nbsp;</div>
@@ -83,41 +83,8 @@
 
 </div>
 
-
-
-<div id="contact" class="contact-section target cf">
-	<h1>Contact Us</h1>
-	<div class="contact-form">
-		
-    <form action="#" class="no-default" method="post" id="contactForm" onSubmit="return validateEmail(document.forms[0].email.value);">
-        
-	    <ul>
-	        <li>
-	          <label class="text" for="name">Name</label>
-	          <input name="name" type="text" id="name" tabindex="10" />
-	        </li>
-	        <li>
-	          <label class="text" for="email">Email</label>
-	          <input name="email" type="email" id="email" tabindex="20" />
-	        </li>
-	        <li>
-	          <label class="text" for="comments">Comments</label>
-	          <textarea name="comments" id="comments" tabindex="30"></textarea>
-	        </li>
-	        <li>
-	            <input id="send" value="Send" tabindex="40" />
-	        </li>
-	        
-	    </ul> 
-    
-    </form>
-
-	</div>	
-</div>
-
-
 <?php include '_includes/footer.php'; ?>
-  
+<?php require_once('_includes/contactform-code.php'); ?>  
 
 <script type="text/javascript" src="js/scripts.js?<?php echo time(); ?>"></script>
 <script type="text/javascript" src="js/nav.js?<?php echo time(); ?>"></script>
