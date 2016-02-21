@@ -59,7 +59,7 @@
 		<h1>Our Staff</h1>
 		<div class="staff01">
 			<img src="_images/female-dr-avatar.png">
-			<h3>Dr. P. Jenny Foster DDS</h3>
+			<h3>P. Jenny Foster DDS</h3>
 			<p>Dr. Foster has been practicing Proin gravida consequat nunc, eu maximus purus rutrum eget. In convallis auctor odio, vitae suscipit dolor euismod id. Duis ac arcu ac nisl accumsan scelerisque. Quisque suscipit sem dolor, a luctus ex consequat vel. Nunc ex nisi, finibus ultricies quam ultrices, volutpat porttitor dolor.</p>
 			<p>Sed eros risus, gravida et iaculis at, ullamcorper sed justo. Aenean cursus est eu nisl ullamcorper, non egestas nibh fringilla. Fusce pellentesque odio et diam bibendum tincidunt. Sed fringilla massa nec nulla porta, vel tempus ex eleifend. Cras et libero eu ante ultrices tempor vitae eget massa.</p>
 		</div>

@@ -3,6 +3,7 @@
 
 </head>
 <body id="index04-body" onload="javascript:fg_hideform('fg_formContainer','fg_backgroundpopup');">
+<?php include_once("google-analytics-tracking.php") ?>
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -61,8 +62,8 @@
 	<div class="staff-wrap">
 		<h1>Our Staff</h1>
 		<div class="staff01">
-			<img src="_images/female-dr-avatar.png">
-			<h3>Dr. P. Jenny Foster DDS</h3>
+			<!-- <img src="_images/female-dr-avatar.png"> -->
+			<h3>P. Jenny Foster DDS</h3>
 			<p>Dr. Foster is excited to return to the Evergreen and Conifer area.  Having spent the last two years in her native Missouri, Dr. Foster purchased Zanichelli Dental Hygiene in October 2015 and expanded into Foster Family Dental, a full-service dental office.</p>
 
 			<p>Dentistry runs in Dr. Foster’s family, as her father has been a general dentist for 43 years.   Since the age of 8, Dr. Foster has been involved in every aspect of the dental field- from scrubbing instruments, attending to patients in reception, to assisting chairside.  She is honored to continue in the path of her mentor and provide beautiful, healthy smiles in beautiful Colorado.</p>
@@ -73,7 +74,7 @@
 
 		</div>
 		<div class="staff02">
-			<img src="_images/female-dr-avatar.png">
+			<!-- <img src="_images/female-dr-avatar.png"> -->
 			<h3>Chelsea Zanichelli</h3>
 			<p>Chelsea is a native to Evergreen, Colorado and brings a wealth of dental knowledge and experience to Foster Family Dental.  Chelsea has over 10 years of experience in the dental field and we are excited to have her operating our front office as well as assisting Dr. Foster.</p>  
 

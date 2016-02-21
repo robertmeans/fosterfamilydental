@@ -2,6 +2,7 @@
 
 </head>
 <body class="patient-information">
+<?php include_once("google-analytics-tracking.php") ?>
 <div id="top-of-page">&nbsp;</div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -25,14 +26,15 @@
 			<li>1 fluoride treatment</li>
 			<li>All other x-rays, restorative work, emergency care, and whitening are offered at a 15% discount</li>
 		</ul>
-
-		<p>The fee for this plan is $350 for adults and $299 for children.  Please give our office a call for more details.</p>
+		
+		<p>&nbsp</p>
+		<p>The fee for this plan is $295 for adults and $275 for children.  Please give our office a call for more details.</p>
 </div>
 
 </div>
 
 <?php include '_includes/footer.php'; ?>
-  
+<?php require_once('_includes/contactform-code.php'); ?> 
 
 <script type="text/javascript" src="js/scripts.js?<?php echo time(); ?>"></script>
 

@@ -2,6 +2,7 @@
 
 </head>
 <body class="cosmetic">
+
 <div id="top-of-page">&nbsp;</div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -44,7 +45,7 @@
 </div>
 
 <?php include '_includes/footer.php'; ?>
-  
+<?php require_once('_includes/contactform-code.php'); ?>  
 
 <script type="text/javascript" src="js/scripts.js?<?php echo time(); ?>"></script>
 
