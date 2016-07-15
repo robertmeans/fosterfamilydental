@@ -62,12 +62,13 @@ footer .our-practice-container .short-txt {
 		display: inline-block;
 
 	}
-	img.ada {
+	img.foot-img {
 		width: 100%;
 		max-width: 150px;
 		border: none;
 		vertical-align: middle;
 		padding-bottom: 15px;
+		margin-right: 12px;
 	}
 	img.imgpad {
 		margin-right: 30px;
@@ -81,16 +82,17 @@ footer .our-practice-container .short-txt {
 	}
 }
 #copyright {
-	padding-top: 50px;
+	padding-top: 90px;
 	background-color: #e8e8e8;
 	padding-bottom: 500px;
 	.our-practice-container p {
 		width: 100%;
 		max-width: 1280px;
 		text-align: center;
-		color: #9e9e9e;
+		// color: #9e9e9e;
+		color: #b6b6b6;
 		a.ewd-link {
-			color: #9e9e9e;
+			color: #b6b6b6;
 			text-decoration: none;
 			&:hover {
 				text-decoration: underline;
