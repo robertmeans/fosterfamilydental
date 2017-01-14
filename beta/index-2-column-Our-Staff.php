@@ -60,18 +60,25 @@
 
 <div id="our-staff" class="our-staff target cf">
 	<div class="staff-wrap">
-		<h1>Meet the Doctor</h1>
+		<h1>Our Staff</h1>
 		<div class="staff01">
 			<!-- <img src="_images/female-dr-avatar.png"> -->
 			<h3>P. Jenny Foster DDS</h3>
-			<p>Dr. Foster is excited to return to the Evergreen and Conifer area. Having spent the last two years in her native Missouri, Dr. Foster purchased Zanichelli Dental Hygiene in October 2015 and expanded into Foster Family Dental, a full-service dental office.</p>
+			<p>Dr. Foster is excited to return to the Evergreen and Conifer area.  Having spent the last two years in her native Missouri, Dr. Foster purchased Zanichelli Dental Hygiene in October 2015 and expanded into Foster Family Dental, a full-service dental office.</p>
 
-			<p>Dentistry runs in Dr. Foster’s family, as her father has been a general dentist for 43 years. Since the age of 8, Dr. Foster has been involved in every aspect of the dental field- from scrubbing instruments, attending to patients in reception, to assisting chairside. She is honored to continue in the path of her mentor and provide beautiful, healthy smiles in beautiful Colorado.</p>
+			<p>Dentistry runs in Dr. Foster’s family, as her father has been a general dentist for 43 years.   Since the age of 8, Dr. Foster has been involved in every aspect of the dental field- from scrubbing instruments, attending to patients in reception, to assisting chairside.  She is honored to continue in the path of her mentor and provide beautiful, healthy smiles in beautiful Colorado.</p>
 
-			<p>Dr. Foster received her Bachelor of Arts degree in biological sciences from the University of Missouri-Columbia and her Doctorate of Dental Surgery degree from the University of Missouri-Kansas City.  She is married to her husband, Cody, who is a financial advisor with his own company, Foster Financial, in Evergreen, Colorado.  They are the proud parents of two toddlers- 3 year-old Madeline and 2 year-old Jackson. They have enjoyed immersing themselves in the Evergreen community and exploring the Rockies.</p>
+			<p>Dr. Foster received her Bachelor of Arts degree in biological sciences from the University of Missouri-Columbia and her Doctorate of Dental Surgery degree from the University of Missouri-Kansas City.  She is married to her husband, Cody, who is a financial advisor with his own company, Foster Financial, in Conifer, Colorado.  They are the proud parents of two toddlers- 3 year-old Madeline and 2 year-old Jackson.   They have enjoyed immersing themselves in the Evergreen community and exploring the Rockies.</p>
 
-			<p>Dr. Foster has devoted herself to be a life-long student, completing well over the required number of hours of continuing dental education every year. She is a member of the Academy of General Dentistry and Colorado Prosthodontic Society. Dr. Foster participates in Give Kids A Smile and the Colorado Mission of Mercy, programs designated to provide free dental services to those in need. Locally, Dr. Foster is involved in the Evergreen Chamber of Commerce and the Downtown Evergreen Association.</p>
+			<p>Dr. Foster has devoted herself to be a life-long student, completing well over the required number of hours of continuing dental education every year.  She is a member of the Academy of General Dentistry and Colorado Prosthodontic Society.  Dr. Foster participates in Give Kids A Smile and the Colorado Mission of Mercy, programs designated to provide free dental services to those in need.   Locally, Dr. Foster is involved in the Evergreen Chamber of Commerce, Downtown Evergreen Association, and Blue Spruce Kiwanis.</p>
 
+		</div>
+		<div class="staff02">
+			<!-- <img src="_images/female-dr-avatar.png"> -->
+			<h3>Chelsea Zanichelli</h3>
+			<p>Chelsea is a native to Evergreen, Colorado and brings a wealth of dental knowledge and experience to Foster Family Dental.  Chelsea has over 10 years of experience in the dental field and we are excited to have her operating our front office as well as assisting Dr. Foster.</p>
+
+			<p>Chelsea enjoys being outdoors, mountain climbing, and spending time with her boyfriend Kyle and her golden retriever Riley.</p>
 		</div>
 	</div>
 

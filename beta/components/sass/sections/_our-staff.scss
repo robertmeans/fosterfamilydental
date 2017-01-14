@@ -25,10 +25,11 @@
 	}
 	.staff01 {
 		box-sizing: border-box;
-		width: 47.5%;
-		max-width: 630px;
-		float: left;
-		margin-right: 2.5%;
+		width: 100%;
+		max-width: 1000px;
+		// float: left;
+		// margin-right: 2.5%;
+		margin: 0 auto;
 	}
 	.staff02 {
 		box-sizing: border-box;
@@ -50,6 +51,7 @@
 			margin: 100px 0px 110px 0px;
 			color: #3c0449;
 			font-size: 3em;
+			line-height: 1em;
 			font-family: Georgia, serif;
 		}
 		img {
@@ -61,10 +63,10 @@
 		}
 		.staff01 {
 			box-sizing: border-box;
-			width: 47.5%;
-			max-width: 630px;
-			float: left;
-			margin-right: 2.5%;
+			// width: 47.5%;
+			// max-width: 630px;
+			// float: left;
+			// margin-right: 2.5%;
 			h3 {
 			display: block;
 			float: none;

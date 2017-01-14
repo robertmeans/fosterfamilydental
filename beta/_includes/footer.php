@@ -10,7 +10,7 @@
 		</div>
 		<div class="short-txt">
 			<h2>Affiliations</h2>
-			<a href="http://www.aapd.org/" target="_blank"><img class="foot-img" src="_images/aapd.png"></a>
+			<a href="http://www.agd.org/" target="_blank"><img class="foot-img" src="_images/agd.png"></a>
 			<a href="http://www.evergreenchamber.org/" target="_blank"><img class="foot-img" src="_images/evergreen-chamber-commerce.jpg"></a>
 		</div>
 		<div class="short-txt center">
