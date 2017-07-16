@@ -1,0 +1,474 @@
+@import url("1.css");
+@import url("2.css");
+@import url("3.css");
+@import url("4.css");
+
+/*!:: BELL CANADA UIKit v1.5606
+
+bell.myBell.core.css
+Build Date: 5:21 PM Thursday, September 26, 2013
+
+Development Team: Son Pham, Michel Pen,
+Contributors: Bruno-Pierre Campeau, Philippe Prevost
+ 
+www.bell.ca/enterprise/EntPrd_Web_Landing.page
+
+This file is part of Bell.ca style library. It requires bell_master.css to be 
+imported properly, as it provides basic styles and some crucial structure and
+interaction elements.
+
+::*/
+
+/*:: =Master Overwrites (styles in this section overwrite bell_master.css and bell_prime.css) ::::::::::::::::::::::::::::::::: */
+em {color: #555; font-style: normal;}
+	em small {font-size: 12px;}
+p em, em strong {color: #212121;}
+	p.last {margin-bottom: 0;}
+dl {margin-bottom: 21px;}
+	dt {font-weight: bold;}
+	dd {font-weight: normal; margin-bottom: 5px;}
+.message ol li {margin-bottom: 2em;}
+.logo {height:37px;width:61px;background:transparent url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/logoBell.gif?ver=201406220823) left top no-repeat;}
+.processAction .first {float: left;} .processAction .last {float: right;}
+.wrapHeader {z-index: 12;}
+
+/* Forms - specifics */
+label, .fLabel, .formGroup .sectionHeader {color: #212121;}
+.formSuper .formGroupThemeA .sectionHeader {margin-bottom: 8px;}
+.formSuper .formSelect .sectionContent label {position: relative; font-size: 1em; margin-right: 5px; top: 2px; float: left;}
+.formGroup .sectionHeader em {display: block; font-size: 0.916em; line-height: 1.5em;}
+.formGroupThemeA .sectionHeader, .formGroupThemeA .sectionContent {float: none;}
+	.formGroup .sectionContent .sectionHeader label {font-size: 12px;}
+.pgTitleOptions .formGroup {margin-bottom: 0;}
+.formCollection .formGroupThemeB {margin-left: 0;}
+.lbInnerWrap .shell .formGroup {margin-bottom: 0.5em;}
+.formCheckBox .sectionContent label, .formGroupThemeC .sectionContent label {font-size: 14px;}
+.formText p.inputAside {margin-bottom: 0; top: 7px;}
+.formGroup .sectionContentThemeA .optionGroupThemeB {width: 180px !important;}
+.formGroup .sectionContentThemeA .optionGroupThemeC {width: 120px !important;}
+.formContent p {line-height: normal;}
+
+/* Per-Context */
+
+.formGroupThemeC .formGroupThemeA .sectionHeader {float:none;}
+.formGroupThemeC .formGroupThemeA .sectionContent {float:left;}
+.formGroupThemeC .formGroupThemeA .ui-datepicker-trigger {position:absolute; right:11px;}
+
+/* Tooltips */
+.toolTip .lining, .toolTip .padder {padding: 8px 21px;}
+.toolTip {background-position:0 -400px;}
+	.toolTip .lining, .toolTip .padder {color:#555;background: #fff url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/toolTips/bg_toolTipThemeB.gif?ver=201406220823) repeat-x left bottom;}
+	.toolTip .toolTipTopRight, .toolTip .toolTipBottomRight {background-image: url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/toolTips/bg_toolTipThemeBBoxRight.png?ver=201406220823);}
+	.toolTip .toolTipTopLeft, .toolTip .toolTipBottomLeft {background-image:url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/toolTips/bg_toolTipThemeBBoxLeft.png?ver=201406220823)}
+	.toolTip .toolTipArrow {background-image: url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/toolTips/bg_toolTipThemeBArrowSprite.png?ver=201406220823);}
+		.toolTip .toolTipArrowThemeA, .toolTip .toolTipArrowThemeB, .toolTip .toolTipArrowThemeC {background-image: url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/toolTips/bg_toolTipArrowSprite.png?ver=201406220823);}
+	.toolTip .message p.headingType4 {padding-bottom: 0;}
+	.toolTip .loaderContent{padding-top:0px; padding-bottom:0px; background-position:11px -1px; min-height:35px; padding-right:10px; line-height:32px;}
+	.fr .toolTip .loaderContent{line-height:18px}
+/* Corrections/Misc. */ 
+.toggle:visited {color: #0066A4;}
+.itemGroup .sectionContent .hSeparator {clear: none;}
+.multiColumn .shell {margin-bottom: 12px;}
+.cBoxThemeA .shell {margin-top:0;}
+.toolTipAction, .actionSort {outline: none;}
+.message p {margin-bottom: 8px;} .message p.headingType4 {margin-bottom: 0.285em; line-height: 16px;}
+.cBox .cFooterThemeC {padding-top: 14px;}
+.pgTitleOptions .pipeSpacer a:visited {color:#0066A4;}
+.dataListThemeD {background-color: #fff;}
+.customizeProduct .formGroup .sectionHeader{width:110px;}
+.customizeProduct .formGroup .sectionContent{width:200px;}
+.customizeProduct .formGroup .message {margin-top:0px;}
+/*.pricingInfo p {padding-right:0;}  ### padding-left: 21px;*/
+	.qvContent .pricingInfo p, .lbContent .pricingInfo p {padding-right: 10px;} /* ### padding-left: 0;*/
+.dataListThemeD li {padding-right: 0; width: 100%; background-position: 77% 0;}
+	.dataListThemeD li .sectionHeader {/*width: 70%;*/ float: left;}
+	.dataListThemeD li .sectionValue {position: relative; top: auto; float: right; width: 23%;}
+.lbContent .shell .formRadio .optionGroup {margin-right: 0;}
+.hScrollBar .multiColumn {background-color: transparent; position: relative;}
+	.hScrollBar .multiColumn .padder {padding-top: 24px} /* ### same value as cBoxThemeA padder */
+
+/* sumBox (contextBuilder) */
+.sumBox .dataListThemeD {padding-bottom: 0;}
+	.sumBox .brief .dataListThemeD li {padding-right: 3em; width: 75%;}
+		.sumBox .dataListThemeD li .sectionHeader, .sumExtended .sumBox .brief .dataListThemeD li .sectionHeader {text-indent: 0; padding-left: 0; color: #212121;}
+		.sumExtended .sumBox .brief .dataListThemeD li .sectionHeader {width: auto;}
+		.sumBox .dataListThemeD li .sectionValue {position: absolute; top:0; right:0;}
+		.sumBox .dataListThemeD li .sectionContent {padding-left: 0; width: 70%; float: left;}
+			.sumBox .brief .dataListThemeD li ul {width: auto; border: 0; padding-top: 3px;}
+				.sumBox .brief .dataListThemeD li ul li {padding: 0 0 0 11px; border: 0; width: auto; float: none; text-indent: 0;}
+		.sumBox .brief .headingThemeD {overflow: hidden;}
+			.sumBox .headingThemeD .priceTag {padding-right: 30px;}
+.sumExtended .sumBox .brief .dataListThemeD li {clear: none; padding-left: 24px; padding-right: 7em; width: 27%;}
+	.sumExtended .sumBox .brief .dataListThemeD li ul li {padding-left: 11px; padding-right: 0; width: auto; float: none;}
+	.sumExtended .sumBox .dataListThemeD li .sectionContent {width: auto; float: none;}
+
+.mGrid4 .colGroup .shell, .mGrid5 .colGroup .shell, .mGrid6 .colGroup .shell {margin-bottom: 10px;}
+.mGrid4 .colGroup .shell .priceTag, .mGrid5 .colGroup .shell .priceTag, .mGrid6 .colGroup .shell .priceTag {display: block;}
+
+.sumBox .brief ul ul {border-bottom:0;}
+.sumBox .brief ul li ul li {background: url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/bl_default.gif?ver=201406220823) 0 0.5em no-repeat transparent; padding-right:0; padding-left:10px; padding-top:0; padding-bottom:0;}
+
+
+/* nextPrevious - overwriting bell_master.css + used in cHeaderOptions */
+.dock .nextPrevious, .cHeaderOptions .nextPrevious {margin-top: 0; float:left;margin-top: inherit; width: 96px;}
+	.dock .nextPrevious span, .cHeaderOptions .nextPrevious span, .dock .message {float: left;}
+	.dock .nextPrevious {padding-right: 15px;}
+	.dock .nextPrevious span, .cHeaderOptions .nextPrevious span {padding: 0 7px; position: relative; top: -1px;}
+	
+	.cHeaderOptions .nextPrevious {margin-top:2px; padding-right:0; width: auto;}
+	/* nextPreviousThemeA - changes arrows images (extension) */
+	.cHeaderOptions .nextPrevious .next, .cHeaderOptions .nextPrevious .previous {float: none; display: inline-block; width: 15px;}
+		.cHeaderOptions .nextPrevious span {float: none; top: -3px;}
+			.cHeaderOptions .nextPrevious span span {top: 0;padding: 0;}
+
+/* ### hTabs tabs height fix (to be moved to bell_master.css) - to be deleted (3:37 PM 6/27/2012)
+.hTabs {padding-top: 0 !important;} 
+	.hTabs .tabTrigSet {position: relative;}
+	.hTabs .tabContSet {padding-top: 21px;}
+*/
+ 
+/* icon */
+.navBar .icon {position: relative; float:left;margin:-5px 0 0 0;display:block; height: 27px;}	
+			
+
+/*:: =MyBell General (styles in this section are completely new and/or extensions of existing classes) ::::::::::::::::::::::::::::::::: */
+/* pushUp */
+.pushUp, .pushUp1 {margin-top: -1em;}
+.pushUp2 {margin-top:-2em;}
+	.dataListThemeB .pushUp2 {padding-top: 16px; padding-bottom: 12px;} /* <- context-specific tweak */
+.pushUp3 {margin-top:-3em;}
+.pushUp4 {margin-top:-4em;}
+.pushUp5 {margin-top:-5em;}
+
+
+/* nav */
+.nav {padding:11px 20px 9px 19px; min-height: 43px;}
+	.noJs .nav {padding-left: 100px;}
+	.nav .logo {/*position:absolute;top:15px;left:19px;*/ display: none;}
+	.nav .navBar {position:relative;float:right;top:0;right:50%;}
+	.nav .navOptions {position:absolute;top:15px;right:12px;}
+	.nav .buttonWrap {right: 8px; top: 14px;}
+
+	.navBar {display:inline-block; position: relative; top: 1px;}
+		.navBar ul {margin:0;list-style: none;}
+			.navBar ul li {position:relative;float:left;left:50%;margin:0;padding:0;background:none;}
+				.navBar ul li a {display:block;padding:13px 40px 6px 40px; font-size:14px;color:#212121;border-top:solid 1px #b5b5b5;border-right:solid 1px #ababab;border-bottom:solid 1px #b5b5b5;background:url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_navBar.gif?ver=201406220823) 0 -20px no-repeat #e1e1e1;}
+				.navBar ul li a:visited {color: #212121;}
+					.navBar ul li.active a:visited {color: #fff;}
+				
+				.navBar ul li a.first {border-left:solid 1px #b5b5b5;}
+				.navBar ul li a:hover, .navBar ul li.hover a {background-color: #cdcdcd; background-position: -800px -20px;}
+				.navBar ul li.hover .flyOut a {text-decoration: none;}
+				.navBar ul li a:active, .navBar ul li.active a, .navBar ul li.active a:hover {text-decoration: underline; color: #fff; background-color: #828282; background-position: -400px -20px; border-right-color: #555; outline: none; border-top-color:#515151;border-right-color:#555;border-bottom-color:#737373;}
+					.navBar ul li.active a {text-decoration: none;} .navBar ul li.active a:hover {text-decoration: underline;}
+					.navBar ul li a.first:active, .navBar ul li.active a.first {border-left:solid 1px #646464;}
+				.navBar ul li a.dropDownItem {padding-right: 57px;}
+					.dropDownItem .dropDown {width: 12px; height: 7px; display: inline-block; position: absolute; top: 19px; left: auto; right: 40px; line-height: 0; font-size: 0; background: url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_navBarDropDown.gif?ver=201406220823) left top no-repeat transparent;}
+				.navBar ul li a.dropDownItem:active .dropDown, .navBar ul li.active a.dropDownItem .dropDown {background-position: left bottom;}
+	
+	/* everything corners */
+	.navBarExtra1, .navBarExtra2 {position:absolute;display:block;height:10px;width:10px;background: url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_navBar.gif?ver=201406220823) left top no-repeat transparent;}
+		.first .navBarExtra1 {top:0;left:0;background-position:0 0;}
+		.first .navBarExtra2 {bottom:0;left:0;background-position:0 -10px;}	
+			.navBar ul li a.first:active .navBarExtra1, .navBar ul li.active a.first .navBarExtra1, .navBar ul li.active a.first:hover .navBarExtra1 {background-position:-20px 0;}
+			.navBar ul li a.first:active .navBarExtra2, .navBar ul li.active a.first .navBarExtra2, .navBar ul li.active a.first:hover .navBarExtra2 {background-position:-20px -10px;}
+		.last .navBarExtra1 {top:0;right:0;background-position:-10px 0;}
+		.last .navBarExtra2 {bottom:0;right:0;background-position:-10px -10px;}
+			.navBar ul li a.last:active  .navBarExtra1, .navBar ul li.active a.last  .navBarExtra1, .navBar ul li.active a.last:hover  .navBarExtra1 {background-position:-30px 0px;}
+			.navBar ul li a.last:active  .navBarExtra2, .navBar ul li.active a.last  .navBarExtra2, .navBar ul li.active a.last:hover  .navBarExtra2 {background-position:-30px -10px;}
+		
+	/* flyOut */
+	.navBar .on .flyOut {display: block !important;}
+		.navBar .flyOut {left:-11px;}
+		.navBar .flyOut ul li {float:none;right:auto;left:0;}
+			.navBar .flyOut ul li a, .navBar .flyOutFooter a, .navBar .active .flyOutFooter a {line-height: normal; background: #F2F2F2; border: 0; padding: 0; display: block; min-height: 0 !important; height: auto !important;}
+				.navBar .flyOut ul li a:hover, .navBar .flyOutFooter a:hover {background: #e5e3e3; display: block; padding: 0; text-decoration: none;}
+			.navBar .flyOutFooter a, .navBar .active .flyOutFooter a, .navBar .flyOutFooter a:hover, .navBar .active .flyOutFooter a:hover {background: transparent;}
+			.navBar .flyOut ul li a, .navBar .flyOut ul li a:hover {color: #212121; font-size: 1em; padding: 5px 14px 5px 14px;}
+				.navBar .flyOut ul li.active a {background: #dae8f0;}
+			.navBar .flyOutFooter {padding-left: 14px;}	.navBar ul li.hover .flyOutFooter a {background-color: transparent;}
+			.navBar .flyOutFooter .moreLink {position: relative;}
+			.navBar  ul li .flyOut a:visited {color: #212121;}
+			.navBar ul li.active .flyOutFooter a:hover {text-decoration: none;}
+
+/* cHeaderThemeA, cFooterThemeA */
+.cBox .cHeaderThemeA, .cBox .cFooterThemeA {z-index:3;text-align:center;font-size:1.1em;}
+	.cBox .cHeaderThemeA {padding-top:35px;padding-bottom:5px;border-bottom:solid 1px #e0e0e0;background:transparent url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_cHeadThemeA.jpg?ver=201406220823) repeat-x top left;}
+	.cBox .cFooterThemeA {top:0;padding-top:17px;padding-bottom:23px;background:transparent url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_cFootThemeA.jpg?ver=201406220823) repeat-x bottom left;}
+		
+/* dataList for DL, DT, DD */
+.dataList dt, .dataList dd {font-weight: normal; font-size: 1.166em; margin-bottom: 4px;}
+	.dataList dt {margin-right: 10px;}
+	.dataList dd {color: #212121;}
+
+/* Progress Bars */
+/* maximum bar height is 85px - modify the background image if we need to increase the value. */
+.hProgressBar, .vProgressBar {position: relative; margin-bottom: 21px; height: 27px; background: #fff url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_hProgressBarShadows.png?ver=201406220823") repeat-x left top;}
+	.progressValue {position: absolute; top: 0; left: 0; background-color: #1280c3; height: 100%; z-index: 4;}
+	.progressValueThemeA {background-color: #e5b843;}
+	.progressValueThemeB {background-color: #47AEE9;}
+		.progressGradient {position: absolute; display: block; bottom: 0; left: 0; height: 100%; width: 100%; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_hProgressBarGradient.png?ver=201406220823") repeat-x left bottom; z-index: 4;}
+	
+	.progressLimit {position: absolute; width: 1px; height: 100%; background-color: #9b9b9b; top: 0; z-index: 4;}
+	.progressLimitThemeA {background-color: #fff;}
+	
+	.progressBarExtra1, .progressBarExtra2, .progressBarExtra3, .progressBarExtra4, .progressBarExtra5, .progressBarExtra6, .progressBarExtra7 {position: absolute; display: block; z-index: 1;}
+	.progressBarExtra1, .progressBarExtra2, .progressBarExtra3, .progressBarExtra4 {width: 6px; height: 6px; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_progressBarCorners.png?ver=201406220823") no-repeat left top; z-index: 7;}
+		.progressBarExtra1 {top: 0; left: 0;}
+		.progressBarExtra2 {top: 0; right: 0; background-position: right top;}
+		.progressBarExtra3 {bottom: 0; left: 0; background-position: left bottom;}
+		.progressBarExtra4 {bottom: 0; right: 0; background-position: right bottom;}
+		.progressBarExtra5 {bottom: 0; left: 0; width: 100%; height: 4px; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_hProgressBarShadows.png?ver=201406220823") repeat-x left bottom;}
+		.progressBarExtra6, .progressBarExtra7 {height: 100%; width: 5px; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_hProgressBarSideShadows.png?ver=201406220823") repeat-y left top;}
+			.progressBarExtra6 {top: 0; left: 0;}
+			.progressBarExtra7 {top: 0; right: 0; background-position: right top;}
+		a .progressValue {cursor: pointer;}	
+		.hProgressBar .progressValue .number, .vProgressBar .progressValue .number {color: #fff; z-index: 5;} .hProgressBar .progressValueThemeA .number {z-index: 5;}
+		.hProgressBar .number, .vProgressBar .number, .hProgressBar .progressValueThemeA .number, .vProgressBar .progressValueThemeA .number {color: #555; font-weight: bold; right: 4px; top: 6px; position: absolute; font-size: 1.166em; line-height: 1.166em; z-index: 2;}
+		.hProgressBarThemeA .number, .hProgressBarThemeA .progressValueThemeA .number {right: 25px;}
+		.hProgressBarThemeA .progressValue {width:100% !important;}
+		
+	.cBoxThemeC .progressBarExtra1, .cBoxThemeC .progressBarExtra2, .cBoxThemeC .progressBarExtra3, .cBoxThemeC .progressBarExtra4 {background-image: url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_progressBarCornersCbox.png?ver=201406220823")}
+	.hProgressBarThemeA .progressBarExtra2, .hProgressBarThemeA .progressBarExtra4 {width: 17px; height: 13px; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_progressBarCornersThemeA.png?ver=201406220823") no-repeat left top;}
+		.hProgressBarThemeA .progressBarExtra4 {background-position: left bottom;}
+	.cBoxThemeC .hProgressBarThemeA .progressBarExtra2 {background-position: right top;}
+	.cBoxThemeC .hProgressBarThemeA .progressBarExtra4 {background-position: right bottom;}
+	
+/* maximum bar width is 85px - modify the background image if we need to increase the value. */
+.vProgressBar {width: 22px; height: 300px; background-image: url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_vProgressBarShadows.png?ver=201406220823"); background-repeat: repeat-y;}
+	.vProgressBar .progressValue {top: auto; bottom: 0; width: 100%; height: 100%; padding-right: 0;}
+	.vProgressBar .progressGradient {left: auto; right: -1px; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_vProgressBarGradient.png?ver=201406220823") repeat-y left bottom;}
+	.vProgressBar .progressBarExtra5 {right: 0; top: 0; left: auto; bottom: auto; height: 100%; width: 4px; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_vProgressBarShadows.png?ver=201406220823") repeat-y right bottom;}
+	.vProgressBar .progressBarExtra6, .vProgressBar .progressBarExtra7 {height: 5px; width: 100%; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_vProgressBarSideShadows.png?ver=201406220823") repeat-x left top;}
+		.vProgressBar .progressBarExtra7 {bottom: 0; top: auto; background-position: right bottom;}
+
+.progressBarGroup {overflow: hidden; clear: both; height: 100%;}
+	.progressBarGroup .vProgressBar {float: left; margin-right: 21px;}
+	.vProgressBar .number {display: none;}
+		
+.hProgressBar .progressValueSecondary {right: 0; left: auto; z-index:3;width:100% !important;}
+.vProgressBar .progressValueSecondary {top: 0 !important; bottom: auto;}
+
+/* progressValueAddOn */
+.hProgressBar .progressValueAddOn {left: auto; right: 0;}
+
+	/* per-context */
+	.dataListThemeB .hProgressBar, .dataListThemeM .hProgressBar, .dataListThemeC .vProgressBar {margin-bottom: 5px;}
+	.colGroup .dataListThemeM .meter {margin-right: 10px;}
+
+/* hProgressBarThemeB - thinner bar with hidden numbers */
+.hProgressBarThemeB, .dataList .hProgressBarThemeB {height: 18px; margin-bottom: 3px;}
+	.hProgressBarThemeB .sectionHeader {width: 100px;}
+	.hProgressBarThemeB .number {display: none;}
+	.hProgressBarThemeB .progressValue {border-right: 1px solid #fff;}
+
+	
+/* indicator - elements with a pointing arrow (can be used with utility classes : center, left, right for positionning) */
+.indicator {position: relative; font-size: 10px; padding-top: 10px; line-height: normal; text-transform: uppercase; margin-bottom: 3px; width: 100px; z-index: 1;}
+	.indicatorRight, .indicatorDown, .indicatorBottom, .indicatorLeft {padding-top: 0;}
+	.indicatorRight {padding-right: 12px;}
+	.indicatorDown, .indicatorBottom {padding-bottom: 10px;}
+	.indicatorLeft {padding-left: 12px;}
+		.indicator .indicatorExtra1, .indicatorUp .indicatorExtra1, .indicatorTop .indicatorExtra1 {position: absolute; display: block; width: 10px; height: 10px; top: 0; left: 0; background: transparent url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/bg_actionSort.gif?ver=201406220823) no-repeat center -30px;}
+		.indicatorRight .indicatorExtra1 {background-position: center -95px; left: auto; right: 0;}
+		.indicatorDown .indicatorExtra1, .indicatorBottom .indicatorExtra1 {background-position: center 0; top: auto; bottom: 0;}
+		.indicatorLeft .indicatorExtra1 {background-position: center -61px; left: 0;}
+		.indicatorRight .indicatorExtra1, .indicatorLeft .indicatorExtra1 {width: 10px !important;}
+		
+	.indicatorThemeA {color: #0066A4;}
+		.indicatorThemeA .indicatorExtra1 {background-image: url(https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/bg_actionSortBlue.gif?ver=201406220823);}
+	
+	/* per-element */
+	.indicator p {margin-bottom: 0;}
+	
+	/* per-context */
+	.center .indicatorExtra1, .textCenter .indicatorExtra1 {width: 100%;}
+	.right .indicatorExtra1, .textRight .indicatorExtra1, .splitterRight .indicatorExtra1 {left: auto; right: 0;}
+	.splitterLeft .indicator {left: -5px;}
+	.splitterRight .indicator {right: -5px;}
+
+/* Meter */
+.meter {overflow: hidden;}
+	.meter span {display: block; float: left; background-color: #ccc; height: 10px; width: 3%; margin-right: 1px; margin-bottom: 1px;}
+	.meter span.active {background-color: #0066A4;}
+
+/* itemCollection */
+.itemCollection .itemGroup {margin-bottom:25px;padding:4px 0 9px 0;border-bottom:solid 1px #e0e0e0;}
+	.itemCollection .last {margin-bottom:0;border:0;}
+		.itemCollection .dataList {margin-bottom:0;}
+			.itemCollection .dataList {margin-bottom:11px;}
+		.itemCollection .itemGroup h2, .itemCollection .itemGroup h2 a {margin-bottom:0.5em;color:#0066a4;}
+		.itemCollection .itemGroup .buttonThemeC, .itemCollection .itemGroup .buttonToggle {margin-top:-1px;margin-bottom:20px;}
+				
+/* itemAside */
+.itemAside .headingThemeA  {margin-bottom:17px; padding-right: 17px;} /* <- padding-right keeps the text from overlapping its icon if any */
+	.itemAside .dataListThemeB li .sectionHeader em, .itemAside .dataListThemeM li .sectionHeader em {margin-bottom: 0;}
+.itemAside .button {margin-bottom:8px;}
+	.itemAside .buttonThemeC {margin-right:0; margin-bottom: 12px;}
+.itemAside .shell .dataList li .sectionHeader {width: auto;}
+.colGroup .itemAside .dataListThemeF li {margin-bottom: 5px;}
+
+/* Exception: we do not style Js class but for this context we do need */
+.borderradius .editInPageJs .shellExtra1, .borderradius .editInPageJs .shellExtra2, .borderradius .editInPageJs .shellExtra3, .borderradius .editInPageJs .shellExtra4 {display: block;}
+	
+/* vHistogram - vertical bar chart */
+.shell .vHistogram {margin-top: 0;}
+.vHistogram {position: relative; padding-right: 15px; padding-bottom: 10px; margin-top: 21px; width: auto;}
+	.chartGroup .axisY {position: relative;}
+		.axisY .axisRow {height: 36px; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_hDotted.gif?ver=201406220823") repeat-x 50px bottom; position: relative; margin-left: 40px;}
+			.axisY .axisRow .axisRowLabel {text-align: center; width: 40px; position: absolute; bottom: -8px; margin-left: -45px;}
+		.axisY .axisRowLimit {position: absolute; display: inline; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_chartLimit.gif?ver=201406220823") no-repeat 40px top; top: 127px; height: 1px; width: 100%; margin-left: 0; z-index: 3;}
+			.axisY .axisRowLimit .axisRowLabel {display: none;}	
+	
+	.chartContent {position: relative; width: 100%; margin-bottom: 50px;}
+	.chartGroup .progressBarCollection {position: absolute; top: 0; left: 0; padding-left: 50px; min-height: 100%; height: 216px; width: 100%;} /* <- Specified exact height for IE6 only */
+		.chartGroup .progressBarLabel {bottom: -35px; left: 3px; margin: 0 auto; position: absolute; text-align: center; width: 100%; min-height: 40px; margin-bottom: -21px;}
+		.vHistogram .progressBarCollection .progressBarGroup {clear: none; height: auto; overflow: visible; position: absolute; width: 80px; bottom: 0;}
+			.vHistogram .progressBarCollection .vProgressBar {margin: 0 auto; position: relative; float: none; left: 4px; overflow: hidden;}
+	
+.vHistogramThemeA, .vHistogramThemeB  {float: left; padding-right: 0;}
+.vHistogramThemeB .axisRow {margin-left: 0;}
+	.vHistogramThemeB .axisY .axisRowLimit {background-position: 0 top;}
+		.vHistogramThemeB .axisRowLabel {display: none;}
+		.vHistogramThemeB .progressBarCollection {padding-left: 15px;}
+		.vHistogram.last {margin-right: 0;}
+
+.chartGroup .formGroup .sectionHeader label{font-size: 12px;}
+.chartGroup .formGroup .sectionHeader {width: auto; float: left;}
+
+.shell .progressBarExtra1, .shell .progressBarExtra2, .shell .progressBarExtra3, .shell .progressBarExtra4 
+{background-image: url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/bg_progressBarCornersShell.png?ver=201406220823");}
+
+/* LightBox compareTable */
+.unit .actionRemove {
+    position: absolute;
+    right: 0;
+    top: 4px;
+	padding: 0;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+/* per-context */
+ 	/*THIS IS EXTREMELY CUSTOM, DO NOT REUSE ANYWHERE*/
+	
+ 	.compareTableThemeA, .compareTableThemeB, .compareTableThemeC, .compareTableThemeD {width:auto;}
+
+	.compareTableThemeA th, .compareTableThemeA td, .compareTableThemeD th, .compareTableThemeD td, .compareTableThemeB td, .compareTableThemeB th { width:106px !important; }
+	.compareTableThemeA th.first, .compareTableThemeA td.first, .compareTableThemeB th.first, .compareTableThemeB td.first, .compareTableThemeD th.first, .compareTableThemeD td.first { width:251px !important; }
+	.compareTableThemeA .tableTitle,  .compareTableThemeA .tableTitle .first,  .compareTableThemeA .tableTitle .last, .compareTableThemeB .tableTitle,  .compareTableThemeB .tableTitle .first,  .compareTableThemeB .tableTitle .last, .compareTableThemeC .tableTitle,  .compareTableThemeC .tableTitle .first,  .compareTableThemeC .tableTitle .last, .compareTableThemeD .tableTitle,  .compareTableThemeD .tableTitle .first,  .compareTableThemeD .tableTitle .last  {width:auto !important; }
+
+	.compareTableThemeC th, .compareTableThemeC td { width:20% !important; }
+	.compareTableThemeC th.first, .compareTableThemeC td.first { width:80% !important; }
+
+	/* When in a lightbox */
+
+	.lbContent .dataTable th, .lbContent .dataTable th { background-color:#ffffff; background-image:none; }
+
+
+/* Dock */
+/* Avoids content overlap */
+.dockVisible .wrapper {margin-bottom: 8.96em;}
+
+.dock {z-index: 999; position: fixed; width: 100%; min-width: 975px; border-top: 1px solid #cdcdcd; border-bottom: 1px solid #cdcdcd; bottom: 0; left: 0; background-color: #f2f2f2; height: 7.58em;}
+	.dockContent {z-index: 400; position: relative; margin: 0 auto; width: 975px; padding-top: 21px;}
+		.dockContent .buttonWrap {top: 12px;}
+		.dockContent .buttonWrap .button {margin-right: 0; margin-left: 8px;}
+		/* dock context only overwrites - very specific */
+		.dockContent .dataListThemeR {overflow: visible; float: left;}
+			.dockContent .dataListThemeR li {height: 4.166em;}
+		
+		/* dockLegend contexter */
+		.dockContent .dockLegend {padding-top: 0; margin-top: 0;}
+			.dockContent .dockLegend .column {background-image: none; padding-left: 0; padding-right: 0; height: auto; padding-bottom: 0; margin-bottom: 10px;}
+			.dockContent .dockLegend .column p {margin-bottom: 0;}
+
+	.dockExtra1 {position: absolute; top: -18px; left: 0; background: transparent url("https://prdbellweb.hs.llnwd.net/resource/web/common/all_languages/all_regions/skin/myBell/dock/bg_dockShadow.png?ver=201406220823") repeat-x 0 0; height: 17px; width: 100%;}
+	/* CSS3 */
+	.boxshadow .dockExtra1 {display: none;}
+	.boxshadow .dock {
+		-webkit-box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.29);
+		   -moz-box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.29);
+			-ms-box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.29);
+				box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.29);
+	}
+	
+/* Custom elements (checkboxes, radios, etc.) */
+.checkBox {display: block; width: 15px; height: 15px;}
+
+/* messageGroup in cHeaderOptions */				
+.cHeaderOptions .messageGroup {float: left; width: 200px; text-align: right;}
+	.cHeaderOptions .messageGroup .sectionContent {float: none; width: auto; padding-right: 8px; display: inline;}
+	.cHeaderOptions .messageGroup .sectionAside {position: relative; float: right; display: block; margin-left: -3px; top: 2px;}
+	.cHeaderOptions .messageGroup .message, .dataList .sectionValue .message, .cHeaderOptions .messageGroup .toolTipAction, .dataList .sectionValue .toolTipAction {display: inline-block; text-indent: 0; position: relative; margin-right: 8px;}
+		.cHeaderOptions .messageGroup .messageThemeC, .dataList .sectionValue .messageThemeC {height: 14px;} .dataList .sectionValue .toolTipAction {margin-right: 0;}
+		.cHeaderOptions .messageGroup .toolTipAction {margin-right: 10px; top: -3px;}
+		.cHeaderOptions .messageGroup .message {margin-left: -7px;}
+	/* Overwrites */
+	.dataList .sectionValue  .message, .dataList .sectionValue .toolTipAction {top: 2px; margin-top: -2px;}
+
+/* formCollectionThemeA (extend from bell_master.css) */
+.formCollectionThemeA .formGroup {float: none;}
+.formCollectionThemeA .formGroupThemeB .sectionHeader {float: left;}
+.formCollectionThemeA .formText .first, .infoGroup.shell .formCollectionThemeA .formText .first {top: 31px; padding-bottom: 10px;}
+.formCollectionThemeA .formText .optionGroup {margin-right: 5px;}
+	.formCollectionThemeA .formText .optionGroup .inputSize3 {width: 16em;}
+	/* formText with optionGroup format */
+	.formText .optionGroup label {display: block; margin-bottom: 8px;}
+	.formText .optionGroup input {float: none;}
+	.infoGroup .sectionContent  .formCollection .formText .optionGroup label {font-size: 1.166em;}
+	.infoGroup.shell .sectionContent .formCollectionThemeA  .formGroup .sectionContent {width: auto;}
+
+/* contentLink (very specific) */
+.contentLink, a.contentLink {color: #212121; display: block; font-size: 1.5em; padding: 40px 0; margin-bottom: 12px; text-align: center; text-decoration: none;}
+	.contentLink em {font-size: 0.65em; display: block; margin: 15px auto 0;}
+	.contentLink .icon {display: block; float: none; margin: 0 auto 28px;}
+	.shellThemeA .contentLink:visited {color: #212121;}
+
+/* innerRow (used only inside <table>) */
+.innerRow td, .innerRow .first, .innerRowFirst td {border-bottom: 0 none !important;}
+	.innerRowFirst .first, .innerRowThemeA td {border-bottom: 1px solid #E0E0E0 !important;}
+.innerRowThemeA td {background-color: #F8F8F8 !important;}
+
+/* sectionContentThemeB */
+.sectionContentThemeB {width: 20% !important;}
+
+/* sectionContentThemeC */
+.sectionContentThemeC, .formGroupThemeA .sectionContentThemeC {float:left; width:100%;}
+
+/* Contexter */
+.fabSettings .formGroupThemeB .sectionHeader {width: 17%;}
+.fabSettings .formGroupThemeB .sectionContent {width: auto;}
+.fabSettings .optionGroup input {width: 20em;}
+dl.fabSettings dt {min-width: 4em;}
+
+.websiteAnalyzer th .itemGroup {position: relative;}
+	.websiteAnalyzer th .itemGroup .sectionContent {margin-bottom: 0;}
+	.websiteAnalyzer th .itemGroup .sectionAside {top: -18px; right: 0;}
+	
+.changeProgramming .channelsThemeB li, .changeProgramming .channelsThemeC li {margin-right: 20px;}
+	.changeProgramming .col3 .padder {padding-right: 14px;}
+	.changeProgramming .formGroupThemeA {margin-bottom: 0;}
+		.changeProgramming .formCheckBox .optionGroup {margin-bottom: 9px;}
+		
+.billingPeriod li .sectionValue {font-size: 1em; top: 16px;}
+
+.plansContext .placeHolder {
+	min-height: 5em;	
+}
+.plansContext .pricingInfo {
+	min-height: 8em;	
+}
+
+.mGrid5 select {
+	max-width: 10em;	
+}
+
+/*:: =ePost (Contexter) ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */	
+.ePost .cWrap {padding-left: 4px !important; padding-right: 4px !important;}
+.ePost .chartGroup {padding-left: 15px;}
+	
+
+/* IMPORTANT NOTICE! */
+/* Please do not put additionnal styles/overwrites in the core files (bell.myBell.core.css)
+   For new styles/overwrites or styles not related with the bell UIKit core files, use bell.myBell.custom.css */
